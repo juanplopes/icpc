@@ -1,26 +1,22 @@
+#define MAX 101
 #include <iostream>
 #include <cstring>
 #include <climits>
-#include <cmath>
 using namespace std;
 
-int T[101][101], S[101], n;
-bool V[101][101];
+int T[MAX][MAX], S[MAX], n;
+bool V[MAX][MAX];
 
 int TT(int a, int b) {
+    if (b<a) return 0;
     if (V[a][b]) return T[a][b];
 
-    int total = S[b]-S[a-1];
-    
-    if (a==b) return total;
-    if (b<a) return 0;
-    
     int maxx = INT_MIN;
     for(int i=a; i<=b; i++)
-        maxx = max(maxx, total - TT(i+1,b));
+        maxx = max(maxx, S[b]-S[a-1] - TT(i+1,b));
     
     for(int i=b; i>=a; i--)
-        maxx = max(maxx, total - TT(a,i-1));
+        maxx = max(maxx, S[b]-S[a-1] - TT(a,i-1));
     
     V[a][b] = true;
     return T[a][b] = maxx;
