@@ -8,3 +8,6 @@
 
 * Optimal Search Tree
 ** [UVA 10403 - Cutting Sticks](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1245)
+
+* Integer partition
+** [UVA 907 - Winterim Backpacking Trip](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=848)
