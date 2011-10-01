@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     long long n, a, t=0;
     while(cin >> n) {
-        long long maxx=0, newneg=0, newpos=0, spos=0, sneg=1;
+        long long maxx=0, newneg=0, newpos=0, spos=1, sneg=1;
         bool valid = false;
         for(int i=0;i<n;i++) {
             cin >> a;
