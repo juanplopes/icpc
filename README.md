@@ -21,4 +21,6 @@
 * Edit Distance
   * [UVA 10739 - String to Palindrome](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1680)
  
+* Maximum Sum Contiguous Subsequence
+  * [UVA 10684 - The Jackpot](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1625)
   
