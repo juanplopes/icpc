@@ -23,4 +23,5 @@
  
 * Maximum Sum Contiguous Subsequence
   * [UVA 10684 - The Jackpot](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1625)
+  * [UVA 11059 - Maximum Product](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2000)
   
