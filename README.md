@@ -14,3 +14,4 @@
   
 * Longest Common Subsequence  
   * [UVA 10066 - The Twin Towers](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1007)
+  * [UVA 10192 - Vacation](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1133)
