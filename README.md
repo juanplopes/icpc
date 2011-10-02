@@ -30,6 +30,9 @@
   * [UVa 11003 - Boxes](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1944)
   * [UVa 10635 - Prince and Princess](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1576)
   * [UVa 10154 - Weights and Measures](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1095)
+
+* Memoized DFS
+  * [UVa 10259 - Hippity Hopscotch](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1200)
   
 * Ad hoc
   * [UVa 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1385)
