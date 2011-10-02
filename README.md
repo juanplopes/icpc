@@ -3,31 +3,33 @@
 **Dynamic Programming**
 
 * Matrix Multiplication
-  * [UVA 10891 - Game of Sum](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1832)
-  * [UVA 10003 - Cutting Sticks](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=944)
+  * [UVa 10891 - Game of Sum](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1832)
+  * [UVa 10003 - Cutting Sticks](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=944)
 
 * Optimal Search Tree
-  * [UVA 10304 - Optimal Binary Search Tree](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1245)
+  * [UVa 10304 - Optimal Binary Search Tree](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1245)
 
 * Integer partition
-  * [UVA 907 - Winterim Backpacking Trip](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=848)
+  * [UVa 907 - Winterim Backpacking Trip](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=848)
   
 * Longest Common Subsequence  
-  * [UVA 10066 - The Twin Towers](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1007)
-  * [UVA 10192 - Vacation](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1133)
-  * [UVA 10723 - Cyborg Genes] (http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1664)
-  * [UVA 11151 - Longest Palindrome] (http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=2092)
+  * [UVa 10066 - The Twin Towers](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1007)
+  * [UVa 10192 - Vacation](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1133)
+  * [UVa 10723 - Cyborg Genes] (http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1664)
+  * [UVa 11151 - Longest Palindrome] (http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=2092)
   
 * Edit Distance
-  * [UVA 10739 - String to Palindrome](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1680)
+  * [UVa 10739 - String to Palindrome](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1680)
  
 * Maximum Sum Contiguous Subsequence
-  * [UVA 10684 - The Jackpot](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1625)
-  * [UVA 11059 - Maximum Product](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2000)
+  * [UVa 10684 - The Jackpot](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1625)
+  * [UVa 11059 - Maximum Product](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2000)
   
 * Longest Increasing Subsequence
-  * [UVA 473 - Raucous Rockers](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=414)
-  * [UVA 11003 - Boxes](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1944)
-  * [UVA 10635 - Prince and Princess](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1576)
-  * [UVA 10154 - Weights and Measures](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1095)
+  * [UVa 473 - Raucous Rockers](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=414)
+  * [UVa 11003 - Boxes](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1944)
+  * [UVa 10635 - Prince and Princess](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1576)
+  * [UVa 10154 - Weights and Measures](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1095)
   
+* Ad hoc
+  * [UVa 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1385)
