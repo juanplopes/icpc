@@ -1,4 +1,4 @@
 # List of Categories
 
-### [Dynamic Programming](dynamic-programming)
-### [Graphs](graphs)
+### [Dynamic Programming](maratona-practices/dynamic-programming)
+### [Graphs](maratona-practices/graphs)
