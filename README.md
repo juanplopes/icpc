@@ -28,4 +28,5 @@
 * Longest Increasing Subsequence
   * [UVA 473 - Raucous Rockers](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=414)
   * [UVA 11003 - Boxes](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1944)
+  * [UVa 10635 - Prince and Princess](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1576)
   
