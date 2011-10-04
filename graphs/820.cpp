@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <cstring>
 #include <string>
+#include <climits>
 #include <cmath>
 #define MAX 1006
 using namespace std;
@@ -53,6 +54,7 @@ int main() {
         
         cout << "Network " << tt << endl;
         cout << "The bandwidth is " << total << "." <<  endl;
+        cout << endl;
     }
     
     
