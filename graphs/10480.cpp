@@ -3,10 +3,11 @@
 #include <cstring>
 #include <string>
 #include <cmath>
+#include <climits>
 #define MAX 1006
 using namespace std;
 
-int G[MAX][MAX], n, m;
+int G[MAX][MAX], O[MAX][MAX], n, m;
 bool V[MAX];
 
 int send(int s, int t, int minn) {
@@ -25,17 +26,6 @@ int send(int s, int t, int minn) {
     return 0;
 }
 
-void mark(int s) { 
-    V[s] = true;
-    for(int i=1; i<=n; i++) {
-        if (G[s][i]>0 && !V[i]) {
-            cout << s << " " << i << " " << G[s][i] << endl;
-            mark(i);
-        }
-    }
-    V[s] = false;
-}
-
 int main() {
     int tt=0;
     while(cin >> n >> m, n|m) {
@@ -43,11 +33,13 @@ int main() {
 
         memset(G, 0, sizeof(G));
         memset(V, 0, sizeof(V));
+        memset(O, 0, sizeof(O));
         
         for(int i=0;i<m;i++) {
             int a, b, f;
             cin >> a >> b >> f;
             G[a][b] = G[b][a] += f;
+            O[a][b] += f;
         }
         
         int total = 0;
@@ -55,11 +47,11 @@ int main() {
             total += sent;
             memset(V, 0, sizeof(V));
         }
-
-        memset(V, 0, sizeof(V));
-        mark(2);
+        for(int i=1;i<=n;i++) { 
+            for(int j=1;j<=n;j++) { 
+                if (O[i][j] > 0 && V[i] != V[j])
+                    cout << i << " " << j << endl;
+            }        
+        }
     }
-    
-    
-        
 }
