@@ -5,6 +5,7 @@
 
 * Shortest Path
   * [UVa 314 - Robot](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=250)
+  * [UVa 321 - The New Villa](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=257)
   
 * Maximum Flow (not using Edmonds-Karp)
   * [UVa 820 - Internet Bandwidth](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=761)
