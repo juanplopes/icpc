@@ -2,6 +2,7 @@
 #include <string>
 #include <map>
 #include <cstring>
+#include <vector>
 #define MAX 205
 using namespace std;
 
@@ -13,20 +14,17 @@ int emp(string& s) {
         return E[s] = E.size()-1;
 }
 
-bool L[MAX], V[MAX], L2[MAX];
-int G[MAX];
+bool L[MAX], L2[MAX];
+vector<int> G[MAX];
 int n;
 
 int dfs(int v) {
-    int acum = 0, illu = 0, children = 0;
-    for(int i=0;i<n;i++) {
-        if (G[i] == v) {
-            acum += dfs(i);
-            if (L[i]) illu++;
-            children++;
-        }
+    int acum = 0, illu = 0;
+    for(int i=0;i<G[v].size();i++) {
+        acum += dfs(G[v][i]);
+        if (L[G[v][i]]) illu++;
     } 
-    if (illu < children && children > 0)
+    if (G[v].size() > 0 && illu < G[v].size())
         L[v] = true;
     return acum + L[v];
 }
@@ -35,15 +33,14 @@ int main()
 {
     while(cin >> n, n) {
         memset(G, 0, sizeof(G));
-        memset(V, 0, sizeof(V));
         memset(L, 0, sizeof(L));
         E.clear();
         string a, b;        
         cin >> a;
-        G[emp(a)] = -1;
+        emp(a);
         for(int i=1;i<n;i++) {
             cin >> a >> b;   
-            G[emp(a)] = emp(b);
+            G[emp(b)].push_back(emp(a));
         }
         
         int total = dfs(0);
@@ -54,8 +51,10 @@ int main()
             if (!L2[i]) {
                 memset(L, 0, sizeof(L));
                 L[i] = true;
-                if (dfs(0) == total)
-                    unique = false;
+                if (dfs(0) == total) {
+                    unique = false; 
+                    break;
+                }
             }
         }
         
