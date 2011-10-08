@@ -18,7 +18,7 @@
   
 * Edit Distance
   * [UVa 10739 - String to Palindrome](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1680)
- 
+  * [UVa 1207 - AGTC](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3648)
 * Maximum Sum Contiguous Subsequence
   * [UVa 10684 - The Jackpot](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1625)
   * [UVa 11059 - Maximum Product](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2000)

@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 #include <cstring>
 #include <climits>
 #include <string>
@@ -26,8 +27,27 @@ int author(const string& a) {
         return A[a] = A.size()-1;
 }
 
+bool getauthor(istream& ist, string& s, bool& stop) {
+    string tmp;
+    stringstream str;
+    while(ist.peek() == ' ') ist.ignore();
+    
+    char c;
+    int commas=0;
+    while(ist) {
+        c = ist.get();
+        if (c==',') commas++;
+        if (c==':' || commas==2) break;
+        str << c;
+    }
+    s = str.str();
+    if (c == ':') { getline(ist, tmp); stop = true; }
+    
+    return commas > 0;
+}
+
 int main() {
-    string s1, s2, tmps;
+    string s;
     int t=0, tt;
     cin >> tt;
     while(t++ < tt) {
@@ -37,12 +57,13 @@ int main() {
 
         while(n--) {
             vector<int> TA;
-            while(true) {
-                cin >> s1 >> s2;
-                bool stop = s2[s2.size()-1] == ':';
-                s2.erase(s2.size()-1);
-                TA.push_back(author(s1 + " " + s2));
-                if (stop) { getline(cin, s1); break; }
+            bool stop = false;
+            while(!stop) {
+                if (getauthor(cin, s, stop)) {
+                    if (stop) cout << "***";
+                    TA.push_back(author(s));
+                    cout << s << ":::";
+                }
             }
             for(int i=0;i<TA.size();i++)
                 for(int j=0;j<TA.size();j++)
@@ -51,9 +72,10 @@ int main() {
         
         cout << "Scenario " << t << endl;
         for(int i=0;i<m;i++) {
+            bool stop;
             memset(V, 0, sizeof(V));
-            cin >> s1 >> s2;
-            int b = author(s1 + " " + s2);
+            getauthor(cin, s, stop);
+            int b = author(s);
             Q = vector<Step>();
             Q.push_back(Step(author("Erdos, P."), 0));
             
@@ -61,7 +83,7 @@ int main() {
             while(ptr < Q.size()) {
                 Step it = Q[ptr];
                 if (it.x == b) {
-                    cout << s1 << " " << s2 << " " << it.v << endl;
+                    cout << s << " " << it.v << endl;
                     break;
                 }
                 
@@ -73,7 +95,7 @@ int main() {
                 
                 ptr++;
             }
-            if (ptr == Q.size()) cout << s1 << " " << s2 << " infinity" << endl;
+            if (ptr == Q.size()) cout << s << " infinity" << endl;
         }
     }
 }
