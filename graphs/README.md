@@ -2,7 +2,8 @@
 
 * DFS
   * [UVa 10243 - Fire! Fire! Fire!](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1184)
-
+  * [UVa 1220 - Party at Hali-Bula](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3661)
+  
 * Shortest Path
   * [UVa 314 - Robot](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=250)
   * [UVa 321 - The New Villa](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=257)
