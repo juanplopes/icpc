@@ -12,6 +12,7 @@
 * Maximum Flow (not using Edmonds-Karp)
   * [UVa 820 - Internet Bandwidth](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=761)
   * [UVa 10480 - Sabotage](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1421)
+  * [UVa 10092 - The Problem with the Problem Setter](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1033)
   
 * Minimum Spanning Tree
   * [UVa 1235 - Anti Brute Force Lock](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3676)
