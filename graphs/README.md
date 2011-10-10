@@ -17,3 +17,6 @@
 * Minimum Spanning Tree
   * [UVa 1235 - Anti Brute Force Lock](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3676)
   * [UVa 1208 - Oreon](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3649)
+  
+* Minimum Path (Floyd-Warshall)
+  * [UVa 10278 - Fire Station](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1219)
