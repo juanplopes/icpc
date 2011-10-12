@@ -32,5 +32,9 @@
 * Memoized DFS
   * [UVa 10259 - Hippity Hopscotch](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1200)
   
+* Knapsack
+  * Counting Items
+    * [UVa 1213 - Sum of Different Primes](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3654)
+  
 * Ad hoc
   * [UVa 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1385)
