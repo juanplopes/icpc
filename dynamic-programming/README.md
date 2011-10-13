@@ -29,11 +29,15 @@
   * [UVa 10635 - Prince and Princess](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1576)
   * [UVa 10154 - Weights and Measures](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1095)
   * [UVa 10051 - Tower of Cubes](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=992)
+
 * Memoized DFS
   * [UVa 10259 - Hippity Hopscotch](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1200)
   
 * Knapsack - Counting Items
   * [UVa 1213 - Sum of Different Primes](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3654)
+
+* Knapsack - 0/1
+  * [UVa 11658 - Best Coalitions](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=2705)
   
 * Ad hoc
   * [UVa 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1385)
