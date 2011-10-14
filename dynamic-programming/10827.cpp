@@ -1,4 +1,5 @@
 #include <iostream>
+#include <climits>
 #define MAX 160
 using namespace std;
 
@@ -11,32 +12,37 @@ int main() {
 		for(int i=1; i<=n; i++) {
 			for(int j=1;j<=n;j++) {
 				cin >> T[i][j];
-				T[i+n][j] = T[i][j+n] = T[i+n][j+n] = T[i][j];
+				T[i+n][j] = T[i][j];
 			}
 		}
 		
 		for(int i=1; i<=2*n; i++)
-			for(int j=1;j<=2*n;j++)
+			for(int j=1;j<=n; j++)
 				T[i][j]+=T[i-1][j];
 
-		int maxt = 0;
+		int t = 0;
 		for(int i=1;i<=2*n; i++) {
 			for(int j=i;j<=min(i+n-1, 2*n);j++) {
-				for(int m=1;m<=2*n; m++) {
-					int t=0, s=0;
-					for(int k=m;k<=min(m+n-1, 2*n);k++) {
-						int a = T[j][k] - T[i-1][k];
-						if (s+a>=0)
-							t = max(t, s+=a);
-						else
-							s = 0;
-					}
-					maxt = max(maxt, t);
+				int smax=0, smin=0, ssum=0, tmax=0, tmin=INT_MAX;
+				for(int k=1;k<=n; k++)
+					ssum += T[j][k] - T[i-1][k];
+
+				for(int k=1;k<=n; k++) {
+					int a = T[j][k] - T[i-1][k];
+					smax += a;
+					smin += a;
+					
+					tmax = max(tmax, smax);
+					tmin = min(tmin, smin);
+
+					if (smax < 0) smax = 0;
+					if (smin > 0) smin = 0;
 				}
+				t = max(t, max(tmax, ssum-tmin));
 			}
 		}
 		
-		cout << maxt << endl;
+		cout << t << endl;
 	}
     
     return 0;
