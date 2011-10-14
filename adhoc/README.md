@@ -11,3 +11,6 @@
   
 * Binary Manipulation
   * [UVa 11532 - Simple Adjacency Maximization](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2527)
+  
+* Sort
+  * [UVa 11157 - Dynamic Frog](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2098)  
