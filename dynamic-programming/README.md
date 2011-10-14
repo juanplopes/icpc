@@ -23,6 +23,9 @@
   * [UVa 10684 - The Jackpot](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1625)
   * [UVa 11059 - Maximum Product](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2000)
   
+* Maximum Sum Sub-rectangle
+  * [UVa 10827 - Maximum sum on a torus](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1768)
+  
 * Longest Increasing Subsequence
   * [UVa 473 - Raucous Rockers](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=414)
   * [UVa 11003 - Boxes](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1944)
