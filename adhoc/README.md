@@ -8,3 +8,6 @@
   
 * Priority queue
   * [UVa 1203 - Argus](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3644)
+  
+* Binary Manipulation
+  * [UVa 11532 - Simple Adjacency Maximization](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2527)
