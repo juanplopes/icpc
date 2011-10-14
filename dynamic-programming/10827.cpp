@@ -23,7 +23,7 @@ int main() {
 		int t = 0;
 		for(int i=1;i<=2*n; i++) {
 			for(int j=i;j<=min(i+n-1, 2*n);j++) {
-				int smax=0, smin=0, ssum=0, tmax=0, tmin=INT_MAX;
+				int smax=0, smin=0, ssum=0, tmax=0, tmin=0;
 				for(int k=1;k<=n; k++)
 					ssum += T[j][k] - T[i-1][k];
 
