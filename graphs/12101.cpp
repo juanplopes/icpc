@@ -30,14 +30,14 @@ Step makestep(int n) {
 }
 
 int main() {
-    memset(P, true, sizeof(P));
-    P[0] = P[1] = false;
-    for(int i=2; i<10000; i++) {
-        if (P[i]) {
-            for(int j=i*i; j<10000; j+=i)
-                P[j] = false;
-        }
-    }
+	memset(P, true, sizeof(P));
+	P[0] = P[1] = false;
+	for(int i=2; i<10000; i++) {
+		if (P[i]) {
+			for(int j=i*i; j<10000; j+=i)
+				P[j] = false;
+		}
+	}
 	int t, a, b;
 	cin >> t;
 	while(cin >> a >> b) {
