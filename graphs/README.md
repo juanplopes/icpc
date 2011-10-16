@@ -26,6 +26,7 @@
 * Strongly Connected Components
   * [UVa 11838 - Come and Go](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938)
   * [UVa 11709 - Trust Groups](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2756)
+  * [UVa 1223 - Sub-Dictionary](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3670)
   
 * Minimum Path (Floyd-Warshall)
   * [UVa 10278 - Fire Station](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1219)
