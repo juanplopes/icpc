@@ -5,7 +5,7 @@
 #include <vector>
 #include <queue>
 #include <map>
-#define MAX 2000
+#define MAX 5000
 using namespace std;
 
 vector<int> G[MAX];

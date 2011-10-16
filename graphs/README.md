@@ -3,6 +3,7 @@
 * DFS
   * [UVa 10243 - Fire! Fire! Fire!](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1184)
   * [UVa 1220 - Party at Hali-Bula](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3661)
+  * [UVa 10044 - Erdos Number](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=985)
   
 * Shortest Path
   * [UVa 314 - Robot](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=250)
