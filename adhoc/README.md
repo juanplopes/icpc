@@ -14,3 +14,6 @@
   
 * Sort
   * [UVa 11157 - Dynamic Frog](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2098)  
+  
+* Really Ad hoc
+  * [UVa 11494 - Queen](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2489)
