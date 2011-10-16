@@ -7,10 +7,10 @@ using namespace std;
 
 map<string, int> P;
 int person(const string& p) {
-	if (P.find(p) != P.end())
-		return P[p];
-	else
-		return P[p] = P.size();
+    if (P.find(p) != P.end())
+        return P[p];
+    else
+        return P[p] = P.size();
 }
 
 bool V[MAX];
@@ -38,14 +38,14 @@ int main() {
     int a, b, t; string p, q;
     while(cin >> n >> m, n|m) {
         memset(G, 0, sizeof(G));
-		P.clear();
+        P.clear();
         getline(cin, p);
 
-		for(int i=0; i<n; i++) getline(cin, p);
-		
+        for(int i=0; i<n; i++) getline(cin, p);
+        
         while(m--) {
             getline(cin, p);
-			getline(cin, q);
+            getline(cin, q);
             G[person(p)][person(q)] = true;
         }
         
@@ -61,11 +61,11 @@ int main() {
         int comp = 0;
         for(int i = n; i > 0; i--)
             if(!V[O[i]]) {
-				comp++;
-				DFSt(O[i]);
-			}
+                comp++;
+                DFSt(O[i]);
+            }
 
-		cout << comp << endl;
+        cout << comp << endl;
     }
 
     return 0;

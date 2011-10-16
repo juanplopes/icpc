@@ -31,25 +31,25 @@ int author(const string& a) {
 
 char C[MAX];
 void parseAuthors(const string& s) {
-	vector<int> TA;
-	int commas = 0, chars=0;
-	for(int i=0;i<s.size();i++) {
-		char c = s[i];
-		if (chars == 0 && c == ' ') continue;
-		
-		if ((c==',' || c==':') && ++commas == 2) {
-			TA.push_back(author(string(C, chars)));
-			chars = commas = 0;
-		} else {
-			C[chars++] = c;
-		}
-	}
-	for(int i=0;i<TA.size(); i++) {
-		for(int j=i+1;j<TA.size(); j++) {
-			G[TA[i]].push_back(TA[j]);
-			G[TA[j]].push_back(TA[i]);
-		}
-	}
+    vector<int> TA;
+    int commas = 0, chars=0;
+    for(int i=0;i<s.size();i++) {
+        char c = s[i];
+        if (chars == 0 && c == ' ') continue;
+        
+        if ((c==',' || c==':') && ++commas == 2) {
+            TA.push_back(author(string(C, chars)));
+            chars = commas = 0;
+        } else {
+            C[chars++] = c;
+        }
+    }
+    for(int i=0;i<TA.size(); i++) {
+        for(int j=i+1;j<TA.size(); j++) {
+            G[TA[i]].push_back(TA[j]);
+            G[TA[j]].push_back(TA[i]);
+        }
+    }
 
 }
 
@@ -61,10 +61,10 @@ int main() {
         cin >> n >> m;
         memset(G, 0, sizeof(G));
         A.clear();
-		getline(cin, s);
+        getline(cin, s);
         while(n--) {
-			getline(cin, s);
-			parseAuthors(s);
+            getline(cin, s);
+            parseAuthors(s);
         }
         
         cout << "Scenario " << t << endl;
@@ -76,12 +76,12 @@ int main() {
             Q = queue<Step>();
             Q.push(Step(author("Erdos, P."), 0));
             bool found = false;
-			
+            
             while(!Q.empty()) {
                 Step it = Q.front(); Q.pop();
                 if (it.x == b) {
                     cout << s << " " << it.v << endl;
-					found = true;
+                    found = true;
                     break;
                 }
                 
@@ -93,5 +93,5 @@ int main() {
             if (!found) cout << s << " infinity" << endl;
         }
     }
-	return 0;
+    return 0;
 }

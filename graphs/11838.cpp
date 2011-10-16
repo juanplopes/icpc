@@ -48,11 +48,11 @@ int main() {
         int comp = 0;
         for(int i = n; i > 0; i--)
             if(!V[O[i]]) {
-				comp++;
-				DFSt(O[i]);
-			}
+                comp++;
+                DFSt(O[i]);
+            }
 
-		cout << (comp==1) << endl;
+        cout << (comp==1) << endl;
     }
 
     return 0;
