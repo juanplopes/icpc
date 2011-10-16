@@ -44,3 +44,4 @@
   
 * Ad hoc
   * [UVa 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1385)
+  * [UVa 11375 - Matches](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2370)
