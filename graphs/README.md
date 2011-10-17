@@ -15,7 +15,8 @@
   * [UVa 12101 - Prime Path](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=243&problem=3253)
   * [UVa 10044 - Erdos Number](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=985)
   * [UVa 12260 - Unlock the Lock](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3312)
-
+  * [UVa 12135 - Switch Bulbs](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3287)
+  
 * Maximum Flow (not using Edmonds-Karp)
   * [UVa 820 - Internet Bandwidth](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=761)
   * [UVa 10480 - Sabotage](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1421)
