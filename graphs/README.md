@@ -3,17 +3,17 @@
 * DFS
   * [UVa 10243 - Fire! Fire! Fire!](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1184)
   * [UVa 1220 - Party at Hali-Bula](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3661)
-  * [UVa 10044 - Erdos Number](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=985)
-  * [UVa 12101 - Prime Path](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=243&problem=3253)
-  * [UVa 11518 - Dominos 2](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2513)
 
 * Flood Fill
   * [UVa 11110 - Equidivisions](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2051)
+  * [UVa 11518 - Dominos 2](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2513)
   
-* Shortest Path
+* Shortest Path (BFS)
   * [UVa 314 - Robot](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=250)
   * [UVa 321 - The New Villa](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=257)
   * [UVa 627 - The Net](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=568)
+  * [UVa 12101 - Prime Path](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=243&problem=3253)
+  * [UVa 10044 - Erdos Number](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=985)
   
 * Maximum Flow (not using Edmonds-Karp)
   * [UVa 820 - Internet Bandwidth](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=761)
