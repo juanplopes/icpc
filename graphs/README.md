@@ -5,6 +5,7 @@
   * [UVa 1220 - Party at Hali-Bula](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3661)
   * [UVa 10044 - Erdos Number](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=985)
   * [UVa 12101 - Prime Path](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=243&problem=3253)
+  * [UVa 11518 - Dominos 2](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2513)
 
 * Flood Fill
   * [UVa 11110 - Equidivisions](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2051)
@@ -27,6 +28,7 @@
   * [UVa 11838 - Come and Go](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938)
   * [UVa 11709 - Trust Groups](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2756)
   * [UVa 1223 - Sub-Dictionary](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3670)
+  * [UVa 11770 - Lighting Away](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2870)
   
 * Minimum Path (Floyd-Warshall)
   * [UVa 10278 - Fire Station](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1219)
