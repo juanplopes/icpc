@@ -23,3 +23,4 @@
   * [UVa 11597 - Spanning Subtree](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2644)  
   * [UVa 12148 - Electricity](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3300)
   * [UVa 12195 - Jingle Composing](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3347)
+  * [UVa 12155 - ASCII Diamondi](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3307)
