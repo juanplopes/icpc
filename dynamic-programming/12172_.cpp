@@ -4,10 +4,29 @@
 #define MAX 101
 using namespace std;
 
-int KMAX[MAX][10], KMIN[MAX][10], W[] = {6, 2, 5, 5, 4, 5, 6, 3, 7, 6};
+void printMax(int n) {
+    if (n&1) { cout << "7"; n-=3; }
+    for(;n;n-=2) cout << "1";
+}
 
-int prepend(int a, int b) {
-    return a*(int)pow(10.0, (int)log10(b)+1)+b;
+void printMin(int n) {
+    switch(n) {
+        case 2: cout << "1"; return;
+        case 3: cout << "7"; return;
+        case 4: cout << "4"; return; 
+        case 5: cout << "2"; return; 
+        case 6: cout << "6"; return; 
+    }
+    
+    switch(n%7) {
+        case 1: cout << "10"; n-=8; break;
+        case 2: cout << "1"; n-=2; break;
+        case 3: cout << "22"; n-= 10; break;
+        case 4: cout << "20"; n-= 11; break;
+        case 5: cout << "2"; n-= 5; break;
+        case 6: cout << "6"; n-= 6; break;
+    }
+    for(;n;n-=7) cout << "8";
 }
 
 int main() {
@@ -15,32 +34,12 @@ int main() {
 
     int n;
     int t; cin >> t; t=0;
-    memset(KMIN, 1, sizeof(KMIN));
-    KMAX[0][0] = KMIN[0][0] = 0;
-    for(int i=0; i<10; i++) {
-        for(int j=W[i]; j<=100; j++) {
-            for(int k=0; k<10; k++) {
-                int kmin = KMIN[j-W[i]][k];
-                int kmax = KMAX[j-W[i]][k];
-                
-                if (j==W[i]) {
-                    KMIN[j][i] = min(KMIN[j][i], i);
-                    KMAX[j][i] = min(KMAX[j][i], i);
-                } else {
-                    KMIN[j][i] = min(KMIN[j][i], min(prepend(kmin, i), prepend(i, kmin)));
-                    KMAX[j][i] = max(KMAX[j][i], max(prepend(kmax, i), prepend(i, kmax)));
-                }
-            }
-        }
-    }
-  
+    
     while(cin >> n) {
-        int minn = 0x01010101, maxx = 0;
-        for(int i=1; i<10; i++) {
-            minn = min(minn, KMIN[n][i]);
-            maxx = max(maxx, KMAX[n][i]);
-        }
-        cout << minn << " " << maxx << endl;
+        printMin(n);
+        cout << " ";
+        printMax(n);
+        cout << endl;
     }
 
     return 0;
