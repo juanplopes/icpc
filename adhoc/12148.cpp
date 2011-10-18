@@ -4,7 +4,6 @@ using namespace std;
 int M[] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 
 bool oneday(int ad, int am, int ay, int bd, int bm, int by) {
-    bool isleap = (by%4==0 && (by%100!=0 || by%400==0));
     if (--bd == 0) { 
         if (--bm == 0) {
             --by;
@@ -12,6 +11,8 @@ bool oneday(int ad, int am, int ay, int bd, int bm, int by) {
         }
         
         bd = M[bm-1];
+        
+        bool isleap = (by%4==0 && (by%100!=0 || by%400==0));
         if (bm==2 && isleap) bd=29;
     }
     return ad==bd && am==bm && ay==by;
