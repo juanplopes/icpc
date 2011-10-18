@@ -39,9 +39,10 @@
   
 * Knapsack - Counting Items
   * [UVa 1213 - Sum of Different Primes](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3654)
-  * [UVa 10930 - A-Sequence](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1871)
+
 * Knapsack - 0/1
   * [UVa 11658 - Best Coalitions](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=2705)
+  * [UVa 10930 - A-Sequence](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1871)
   
 * Ad hoc
   * [UVa 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1385)
