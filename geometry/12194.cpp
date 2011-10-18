@@ -8,7 +8,7 @@ int X[MAX], Y[MAX];
 long T[MAX][MAX];
 int C[MAX];
 
-long sqr(long v) { return v*v; }
+inline long sqr(long v) { return v*v; }
 
 int main(){
     int n;
