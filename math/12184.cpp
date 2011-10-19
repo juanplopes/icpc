@@ -2,7 +2,6 @@
 using namespace std;
 
 long gcd(long a, long b) {
-    if (a==-1) return b;
     while(b) {
         long c = a%b;
         a = b;
@@ -12,20 +11,22 @@ long gcd(long a, long b) {
 }
 
 int main() {
-    int t; cin >> t; t--;
+    int t; cin >> t;
     int n;
     while(cin >> n) {
-        long result = -1;
+        long result = 0;
+        long maxSerial = 0;
         for(int i=0; i<n; i++) {
             long s=0, tmp;
             for(int j=0; j<9; j++) {
                 cin >> tmp; s+=tmp;
             }
-            cin >> tmp; s -= tmp;
-            //cout << "*" << s << endl;
+            cin >> tmp; 
+            s -= tmp;
+            maxSerial = max(maxSerial, tmp);
             result = gcd(result, s);
         }
-        if (result>1) 
+        if (result>1 && maxSerial < result)  
             cout << result << endl;
         else
             cout << "impossible" << endl;
