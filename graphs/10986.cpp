@@ -24,7 +24,7 @@ int main() {
     int tt; cin >> tt; tt=0;
     while(cin >> n >> m >> s >> t) {
         int before = 0;
-        memset(V, -1, sizeof(V));
+        memset(V, 0x3f, sizeof(V));
         memset(G, 0, sizeof(G));
         Q = priority_queue<Edge>();
         
@@ -42,18 +42,20 @@ int main() {
 
         while(totalc < n && !Q.empty()) {
             Edge item = Q.top(); Q.pop();
-            if (V[item.v] >= 0) continue;
+            if (item.c >= V[item.v]) continue;
             
             V[item.v] = item.c;
             totalc++;
             
-            for(int j=0; j<G[item.v].size(); j++)
-                if (V[G[item.v][j].v] < 0)
-                    Q.push(Edge(G[item.v][j].v, item.c + G[item.v][j].c));
+            for(int j=0; j<G[item.v].size(); j++) {
+                Edge e = G[item.v][j];
+                if (item.c + e.c < V[e.v])
+                    Q.push(Edge(e.v, item.c + e.c));
+            }
         }
         
         cout << "Case #" << ++tt << ": "; 
-        if (V[t] >= 0)
+        if (V[t] < 0x3f3f3f3f)
             cout << V[t] << endl;
         else
             cout << "unreachable" << endl;

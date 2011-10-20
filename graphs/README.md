@@ -33,7 +33,8 @@
   * [UVa 11631 - Dark roads](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2678)
   * [UVa 11733 - Airports](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2833)
   * [UVa 11747 - Heavy Cycle Edges](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2847)
-
+  * [UVa 10397 - Connect the Campus](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1338) 
+  
 * Strongly Connected Components
   * [UVa 11838 - Come and Go](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938)
   * [UVa 11709 - Trust Groups](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2756)
