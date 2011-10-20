@@ -31,6 +31,7 @@
 
 * Minimum Spanning Tree with Priority Queue
   * [UVa 11631 - Dark roads](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2678)
+  * [UVa 11733 - Airports](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2833)
   
 * Strongly Connected Components
   * [UVa 11838 - Come and Go](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938)

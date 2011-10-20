@@ -11,7 +11,7 @@ using namespace std;
 struct Road {
     int v, c;
     Road(int v, int c) : v(v), c(c) {}
-    bool operator < (const Road& that) const { return c > that.c; }
+    inline bool operator < (const Road& that) const { return c > that.c; }
 };   
 
 vector<Road> G[MAX];
