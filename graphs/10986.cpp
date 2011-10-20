@@ -36,7 +36,7 @@ int main() {
             before += c;
         }
         
-        int total = 0, totalc=0;
+        int totalc=0;
 
         Q.push(Edge(s, 0));
 
@@ -45,7 +45,6 @@ int main() {
             if (V[item.v] >= 0) continue;
             
             V[item.v] = item.c;
-            total += item.c;
             totalc++;
             
             for(int j=0; j<G[item.v].size(); j++)
