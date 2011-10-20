@@ -28,6 +28,9 @@
   * [UVa 1235 - Anti Brute Force Lock](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3676)
   * [UVa 1208 - Oreon](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3649)
   
+* Minimum Spanning Tree with Priority Queue
+  * [UVa 11631 - Dark roads](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2678)
+  
 * Strongly Connected Components
   * [UVa 11838 - Come and Go](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938)
   * [UVa 11709 - Trust Groups](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2756)

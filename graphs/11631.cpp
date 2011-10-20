@@ -3,6 +3,7 @@
 #include <climits>
 #include <vector>
 #include <algorithm>
+#include <queue>
 #define MAX 200010
 
 using namespace std;
@@ -10,22 +11,15 @@ using namespace std;
 struct Road {
     int v, c;
     Road(int v, int c) : v(v), c(c) {}
+    bool operator < (const Road& that) const { return c > that.c; }
 };   
 
 vector<Road> G[MAX];
+priority_queue<Road> Q;
 int n, m;
 bool V[MAX];
 int D[MAX], DO[MAX];
 
-int updateD(int i) {
-    D[i] = 0;
-    for(int j=0; j<G[i].size(); j++) {
-        if (G[i][j].c < D[G[i][j].v]) {
-            D[G[i][j].v] = G[i][j].c;
-            DO[G[i][j].v] = i;
-        }
-    }
-}
 
 int main() {
     while(cin >> n >> m, n|m) {
@@ -33,6 +27,7 @@ int main() {
         memset(V, 0, sizeof(V));
         memset(D, 0x3F, sizeof(D));
         memset(G, 0, sizeof(G));
+        Q = priority_queue<Road>();
         
         for(int i=0; i<m; i++) {
             int a, b, c;
@@ -42,22 +37,20 @@ int main() {
             before += c;
         }
         
-        int total = 0;
+        int total = 0, totalc=0;
 
-        V[0] = true;
-        updateD(0);
-        
-        for(int k=1; k<n; k++) {
-            int minn=INT_MAX, minv;
-            for(int i=0; i<n; i++) {
-                if (!V[i] && D[i] < minn) {
-                    minn = D[i];
-                    minv = i;
-                }
-            }
-            V[minv] = true;
-            updateD(minv);
-            total += minn;
+        Q.push(Road(0, 0));
+
+        while(totalc < n) {
+            Road item = Q.top(); Q.pop();
+            if (V[item.v]) continue;
+            
+            V[item.v] = true;
+            total += item.c;
+            totalc++;
+            
+            for(int j=0; j<G[item.v].size(); j++)
+                Q.push(G[item.v][j]);
         }
         
         cout << before-total << endl;
