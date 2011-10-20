@@ -48,7 +48,8 @@ int main() {
             totalc++;
             
             for(int j=0; j<G[item.v].size(); j++)
-                Q.push(G[item.v][j]);
+                if (!V[G[item.v][j].v])
+                    Q.push(G[item.v][j]);
         }
         
         cout << before-total << endl;
