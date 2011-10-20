@@ -18,14 +18,12 @@ vector<Road> G[MAX];
 priority_queue<Road> Q;
 int n, m;
 bool V[MAX];
-int D[MAX], DO[MAX];
 
 
 int main() {
     while(cin >> n >> m, n|m) {
         int before = 0;
         memset(V, 0, sizeof(V));
-        memset(D, 0x3F, sizeof(D));
         memset(G, 0, sizeof(G));
         Q = priority_queue<Road>();
         
