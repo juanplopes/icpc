@@ -34,8 +34,9 @@
   * [UVa 1223 - Sub-Dictionary](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3670)
   * [UVa 11770 - Lighting Away](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2870)
   
-* Finding Articulation Points
+* Finding Articulation Points/Bridges
   * [UVa 315 - Network](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=251)
+  * [UVa 769 - Critical Links](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=737)
   
 * Topological Sorting
   * [UVa 11686 - Pick up Sticks](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2733)
