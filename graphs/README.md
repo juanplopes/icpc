@@ -49,3 +49,6 @@
   
 * Minimum Path (Floyd-Warshall)
   * [UVa 10278 - Fire Station](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1219)
+  
+* Minimum Path (Dijkstra)
+  * [UVa 10986 - Sending email](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1927)
