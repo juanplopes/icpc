@@ -21,7 +21,7 @@ int n, m, cc, kk;
 int main() {
     while(cin >> n >> m >> cc >> kk, n|m|cc|kk) {
         memset(V, 0x3f, sizeof(V));
-		memset(S, 0, sizeof(S));
+        memset(S, 0, sizeof(S));
         memset(G, -1, sizeof(G));
         
         for(int i=0; i<m; i++) {
@@ -30,13 +30,13 @@ int main() {
             G[a][b] = G[b][a] = c;
         }
        
-		for(int i=cc-2; i>=0; i--) {
-			S[i] = S[i+1] + G[i][i+1];
-		}
-	   
+        for(int i=cc-2; i>=0; i--) {
+            S[i] = S[i+1] + G[i][i+1];
+        }
+       
         int totalc=0;
 
-		priority_queue<Edge> Q;
+        priority_queue<Edge> Q;
         Q.push(Edge(kk, 0));
 
         while(totalc < n && !Q.empty()) {
@@ -47,18 +47,18 @@ int main() {
             if (item.v < cc) continue;
             for(int j=0; j<n; j++) {
                 if (G[item.v][j]>=0) {
-					Edge e = Edge(j, G[item.v][j]);
-					if (item.c + e.c < V[e.v])
-						Q.push(Edge(e.v, item.c + e.c));
-				}
+                    Edge e = Edge(j, G[item.v][j]);
+                    if (item.c + e.c < V[e.v])
+                        Q.push(Edge(e.v, item.c + e.c));
+                }
             }
         }
         
-		int minn = 0x3f3f3f3f;
-		for(int i=0;i<cc;i++) {
-			minn = min(minn, V[i]+S[i]);
-		}
-		cout << minn << endl;
+        int minn = 0x3f3f3f3f;
+        for(int i=0;i<cc;i++) {
+            minn = min(minn, V[i]+S[i]);
+        }
+        cout << minn << endl;
     }
     return 0;
 }
