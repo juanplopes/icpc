@@ -28,7 +28,7 @@ int n;
 
 
 double dist(double ax, double ay, double bx, double by) {
-	return sqrt(pow(ax-bx, 2.0) + pow(ay-by, 2.0))*60/10000;
+    return sqrt(pow(ax-bx, 2.0) + pow(ay-by, 2.0))*60/10000;
 }
 
 int main() {
@@ -36,42 +36,42 @@ int main() {
     while(cin >> X[0] >> Y[0] >> X[1] >> Y[1]) {
         memset(G, 0, sizeof(G));
 
-		G[0].push_back(Edge(1, dist(X[0], Y[0], X[1], Y[1])));
-		G[1].push_back(Edge(0, dist(X[0], Y[0], X[1], Y[1])));
+        G[0].push_back(Edge(1, dist(X[0], Y[0], X[1], Y[1])));
+        G[1].push_back(Edge(0, dist(X[0], Y[0], X[1], Y[1])));
         
-		n = 2;
-		string s;
-		getline(cin, s);
-		while(getline(cin, s) && s!="" && s[0]!=' ') {
-			stringstream sin(s);
-			int mn=0;
-			while(sin >> X[n] >> Y[n]) {
-				if (X[n] == -1 && Y[n] == -1) {
-					assert(mn >= 2);
-				    mn = 0;
-					break;
-				}
-				if (mn > 0) {
-					double mDist = dist(X[n-1], Y[n-1], X[n], Y[n])/METRO;
-					G[n-1].push_back(Edge(n, mDist));
-					G[n].push_back(Edge(n-1, mDist));
-				}
-				for(int i=0;i<n;i++) {
-					double aDist = dist(X[n], Y[n], X[i], Y[i])/WALK;
-					G[i].push_back(Edge(n, aDist));
-					G[n].push_back(Edge(i, aDist));
-				}
-				
-				n++; mn++;
-			}
-			
-		}
-		
+        n = 2;
+        string s;
+        getline(cin, s);
+        while(getline(cin, s) && s!="" && s[0]!=' ') {
+            stringstream sin(s);
+            int mn=0;
+            while(sin >> X[n] >> Y[n]) {
+                if (X[n] == -1 && Y[n] == -1) {
+                    assert(mn >= 2);
+                    mn = 0;
+                    break;
+                }
+                if (mn > 0) {
+                    double mDist = dist(X[n-1], Y[n-1], X[n], Y[n])/METRO;
+                    G[n-1].push_back(Edge(n, mDist));
+                    G[n].push_back(Edge(n-1, mDist));
+                }
+                for(int i=0;i<n;i++) {
+                    double aDist = dist(X[n], Y[n], X[i], Y[i])/WALK;
+                    G[i].push_back(Edge(n, aDist));
+                    G[n].push_back(Edge(i, aDist));
+                }
+                
+                n++; mn++;
+            }
+            
+        }
+        
         int totalc=0;
-		
-		for(int i=0; i<n; i++) V[i] = -1;
-		
-		priority_queue<Edge> Q;
+        
+        for(int i=0; i<n; i++) V[i] = -1;
+        
+        priority_queue<Edge> Q;
         Q.push(Edge(0, 0));
 
         while(totalc < n && !Q.empty()) {
@@ -88,7 +88,7 @@ int main() {
             }
         }
         
-		if (t++) cout << endl;
+        if (t++) cout << endl;
         cout << (int)round(V[1]) << endl;
     }
     return 0;
