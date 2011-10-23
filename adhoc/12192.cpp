@@ -10,10 +10,10 @@ int S[1001];
 int main() {
     int n, m, q;
     while(cin >> n >> m, n|m) {
-        memset(S, 0, sizeof(S));
+        memset(S, 0, (m+n)*sizeof(int));
         for(int i=0; i<n; i++) {
             for(int j=0; j<m; j++) {
-                cin >> T[i-j+max(n,m)][S[i-j+max(n,m)]++];
+                cin >> T[i-j+m][S[i-j+m]++];
             }
         }
         
@@ -22,7 +22,7 @@ int main() {
             int L, U;
             cin >> L >> U;
             int maxx = 0;
-            for(int i=0;i<2*max(n,m); i++) {
+            for(int i=0;i<m+n; i++) {
                 int a = lower_bound(T[i], T[i]+S[i], L) - T[i];
                 int b = upper_bound(T[i], T[i]+S[i], U) - T[i];
                 maxx = max(maxx, b-a);
