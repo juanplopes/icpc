@@ -28,7 +28,6 @@ void remove(int t) {
 }
 
 int shortest() {
-	int totalc=0;
 	memset(V, 0x3f, sizeof(V));
 	memset(D, 0, sizeof(D));
 	priority_queue<Edge> Q;
@@ -39,7 +38,7 @@ int shortest() {
 		if (item.c > V[item.v]) continue;
 		V[item.v] = item.c;
 		D[item.v].push_back(item.u);
-		totalc++;
+
 		for(int j=0; j<n; j++) {
 			if (G[item.v][j]) {
 				Edge e = Edge(item.v, j, item.c+G[item.v][j]);
