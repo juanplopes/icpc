@@ -31,29 +31,33 @@ bool intersect(int x1, int y1, int x2, int y2, int x3, int y3, int x4, int y4) {
 
 int G[20][20], V[20], A[20], B[20], C[20], D[20], n;
 
-int dfs(int v) {
-    V[v] = true;
+int dfs(int v, int comp) {
+    V[v] = comp;
     for(int i=1; i<=n; i++)
         if (!V[i] && G[v][i])
-            dfs(i);
+            dfs(i, comp);
 }
 
 int main() {
     int t; cin >> t; t=0;
     while(cin >> n) {
         memset(G, 0, sizeof(G));
+        memset(V, 0, sizeof(V));
         for(int i=1; i<=n; i++) {
             cin >> A[i] >> B[i] >> C[i] >> D[i];
             for(int j=1;j<i; j++)
                 G[i][j] = G[j][i] = intersect(A[i], B[i], C[i], D[i], A[j], B[j], C[j], D[j]);
         }
         
+        int compn = 0;
+        for(int i=1; i<=n; i++)
+            if (!V[i])
+                dfs(i, ++compn);
+        
         if (t++) cout << endl;
         int a, b;
         while(cin >> a >> b, a|b) {
-            memset(V, 0, sizeof(V));
-            dfs(a);
-            cout << (V[b]?"CONNECTED":"NOT CONNECTED") << endl;
+            cout << (V[a] == V[b]?"CONNECTED":"NOT CONNECTED") << endl;
         }
     }
     return 0;
