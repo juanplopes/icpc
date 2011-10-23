@@ -11,6 +11,7 @@ int main() {
     int n, m, q;
     while(cin >> n >> m, n|m) {
         memset(S, 0, (m+n)*sizeof(int));
+
         for(int i=0; i<n; i++)
             for(int j=0; j<m; j++)
                 cin >> T[i-j+m][S[i-j+m]++];
