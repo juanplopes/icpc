@@ -22,6 +22,9 @@
 * Greed
   * [UVa 12172 - Matchsticks](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3324)
   
+* Linked List
+  * [UVa 245 - Uncompress](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=181)
+  
 * Really Ad hoc
   * [UVa 11494 - Queen](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2489)
   * [UVa 11597 - Spanning Subtree](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2644)  
