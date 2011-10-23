@@ -47,3 +47,5 @@
 * Ad hoc
   * [UVa 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1385)
   * [UVa 11375 - Matches](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2370)
+  * [UVa 10703 - sqrt log sin](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2750)
+  
