@@ -55,3 +55,4 @@
   * [UVa 10986 - Sending email](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1927)
   * [UVa 10389 - Subway](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1330)
   * [UVa 11833 - Route Change](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2933)
+  * [UVa 12144 - Almost Shortest Path](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3296)
