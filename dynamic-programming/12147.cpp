@@ -29,7 +29,7 @@ int main() {
         
         for(int i=1; i<=p; i++) {
             for(int j=1; j<=q; j++) {
-                T[i][j] = max(max(T[i-1][j], T[i][j-1]), T[i-1][j-1]);
+                T[i][j] = max(T[i-1][j], T[i][j-1]);
 
                 for(int s=k; s<=S[i][j]; s++)
                     T[i][j] = max(T[i][j], T[i-s][j-s]+s);                
