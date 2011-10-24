@@ -12,7 +12,6 @@ int main() {
         int a = (int)(i-sqrt(i));
         int b = (int)log(i);
         int c = (int)(i*pow(sin(i), 2));
-        assert(a<i); assert(b<i); assert(c<i); 
         K[i] = (K[a] + K[b] + K[c])%1000000;
     }
 
