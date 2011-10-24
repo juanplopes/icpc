@@ -8,7 +8,7 @@ int K[1000001];
 
 int main() {
     K[0] = 1;
-    for(int i=1; i<100; i++) {
+    for(int i=1; i<1000001; i++) {
         int a = (int)(i-sqrt(i));
         int b = (int)log(i);
         int c = (int)(i*pow(sin(i), 2));

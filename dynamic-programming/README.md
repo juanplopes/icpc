@@ -15,7 +15,8 @@
   * [UVa 10192 - Vacation](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1133)
   * [UVa 10723 - Cyborg Genes] (http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=1664)
   * [UVa 11151 - Longest Palindrome] (http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=2092)
-  
+  * [UVa 12147 - DNA Sequences](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3299)
+
 * Edit Distance
   * [UVa 10739 - String to Palindrome](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=1680)
   * [UVa 1207 - AGTC](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3648)
