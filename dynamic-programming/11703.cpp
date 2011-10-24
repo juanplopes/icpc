@@ -16,10 +16,8 @@ int main() {
     }
 
     int n;
-
     while(cin >> n, n>-1)
         cout << K[n] << endl;
-    
 
     return 0;
 }
