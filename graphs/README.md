@@ -18,6 +18,7 @@
   * [UVa 10044 - Erdos Number](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=985)
   * [UVa 12260 - Unlock the Lock](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3312)
   * [UVa 12135 - Switch Bulbs](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3287)
+  * [UVa 298 - Race Tracks](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=234)
   
 * Maximum Flow (Ford-Fulkerson with DFS)
   * [UVa 820 - Internet Bandwidth](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=761)
