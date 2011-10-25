@@ -19,22 +19,23 @@
   * [UVa 12260 - Unlock the Lock](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3312)
   * [UVa 12135 - Switch Bulbs](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3287)
   
-* Maximum Flow (not using Edmonds-Karp)
+* Maximum Flow (Ford-Fulkerson with DFS)
   * [UVa 820 - Internet Bandwidth](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=761)
   * [UVa 10480 - Sabotage](http://uva.onlinejudge.org/index.php?option=onlinejudge&page=show_problem&problem=1421)
   * [UVa 10092 - The Problem with the Problem Setter](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1033)
   * [UVa 10511 - Councilling](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1452)
   
-* Minimum Spanning Tree
+* Minimum Spanning Tree (Prim)
   * [UVa 1235 - Anti Brute Force Lock](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3676)
   * [UVa 1208 - Oreon](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3649)
   * [UVa 908 - Re-connecting Computer Sites](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=24&page=show_problem&problem=849)
 
-* Minimum Spanning Tree with Priority Queue
+* Minimum Spanning Tree (Prim with Priority Queue)
   * [UVa 11631 - Dark roads](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2678)
   * [UVa 11733 - Airports](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2833)
   * [UVa 11747 - Heavy Cycle Edges](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2847)
   * [UVa 10397 - Connect the Campus](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1338) 
+  * [UVa 1234 - RACING](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3675)
   
 * Strongly Connected Components
   * [UVa 11838 - Come and Go](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938)
