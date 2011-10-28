@@ -6,7 +6,6 @@
 using namespace std;
 
 bool P[MAX];
-int T[MAX];
 vector<int> W;
 
 ull pow(ull a, int b) {
@@ -29,8 +28,6 @@ int main() {
     
     ull n, t=0;
     while(cin >> n, n) {
-        memset(T, 0, sizeof(T));
-        
         ull ncopy = n;
         ull step = 1;
         for(int i=0; ncopy>1 && i<W.size(); i++) {
