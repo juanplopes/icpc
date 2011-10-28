@@ -37,7 +37,7 @@ int main() {
 
                 if (sidea>0 ^ sideb>0) total++;
             }
-            K.insert(C[i]);
+            K.insert(mid);
         }
         cout << total << endl;
     }
