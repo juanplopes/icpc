@@ -11,7 +11,7 @@ vector<int> W;
 ull pow(ull a, int b) {
     if (b==0) return 1;
     ull tmp = b&1 ? a : 1;
-    ull r = pow(a, b/2);
+    ull r = pow(a, b>>1);
     return tmp*r*r;
 }
 
