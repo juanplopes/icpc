@@ -30,11 +30,11 @@ int main() {
                     G[i][j] = min(G[i][j], G[i][k] + G[k][j]);
 
         P[0][0] = 1;
-        double unit = 1.0/r;
+        double pp = 1.0/r;
         for(int i=1; i<=100; i++)
             for(int k=1; k<=r; k++)
                 for(int j=k; j<=10000; j++)
-                    P[i][j] += P[i-1][j-k] * unit;
+                    P[i][j] += P[i-1][j-k] * pp;
 
         cout << "Case " << ++t << endl;
         cin >> c;
