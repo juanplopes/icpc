@@ -15,6 +15,7 @@
 * Binary Search
   * [UVa 12190 - Electric Bill](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3342)
   * [UVa 12192 - Grapevine](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3344) 
+  * [UVa 1215 - String Cutting](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3656)
   
 * Sort
   * [UVa 11157 - Dynamic Frog](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2098)  
