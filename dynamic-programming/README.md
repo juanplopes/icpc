@@ -53,4 +53,5 @@
   * [UVa 11375 - Matches](http://uva.onlinejudge.org/index.php?option=onlinejudge&Itemid=99999999&page=show_problem&category=&problem=2370)
   * [UVa 10703 - sqrt log sin](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2750)
   * [UVa 1231 - ACORN](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3672)
+  * [UVa 1239 - Greatest K-Palindrome Substring](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3680)
   
