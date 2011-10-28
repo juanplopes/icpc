@@ -33,7 +33,7 @@ int main() {
         double pp = 1.0/r;
         for(int i=1; i<=100; i++)
             for(int k=1; k<=r; k++)
-                for(int j=k; j<=10000; j++)
+                for(int j=k; j<=100*r; j++)
                     P[i][j] += P[i-1][j-k] * pp;
 
         cout << "Case " << ++t << endl;
