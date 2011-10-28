@@ -43,9 +43,9 @@ int main() {
             cin >> a >> b >> m; 
             a--; b--;
             
-            double total = 0;
             int d=G[a][b];
             
+            double total = 0;
             for(int i=0; i<=m; i++)
                 total += P[d][i];
             cout << total << endl;
