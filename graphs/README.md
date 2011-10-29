@@ -59,7 +59,8 @@
 * Minimum Path (Floyd-Warshall)
   * [UVa 10278 - Fire Station](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1219)
   * [UVa 12173 - Randomly-priced Tickets](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3331)
-  
+  * [UVa 1056 - Degrees of Separation](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3497) 
+ 
 * Minimum Path (Dijkstra)
   * [UVa 10986 - Sending email](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1927)
   * [UVa 10389 - Subway](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1330)
