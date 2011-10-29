@@ -43,6 +43,7 @@
   
 * Knapsack - Counting Items
   * [UVa 1213 - Sum of Different Primes](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3654)
+  * [UVa 1158 - CubesSquared](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3599)
 
 * Knapsack - 0/1
   * [UVa 11658 - Best Coalitions](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=&problem=2705)
