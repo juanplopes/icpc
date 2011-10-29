@@ -5,6 +5,7 @@
   * [UVa 1220 - Party at Hali-Bula](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3661)
   * [UVa 12186 - Another Crisis](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3338)
   * [UVa 273 - Jack Straws](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=209)
+  * [UVa 1216 - The Bug Sensor Problem](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3657)
   
 * Flood Fill
   * [UVa 11110 - Equidivisions](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2051)
