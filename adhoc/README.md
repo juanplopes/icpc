@@ -30,7 +30,8 @@
   
 * Union-Find
   * [UVa 11503 - Virtual Friends](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2498)
-  
+  * [UVa 10158 - War](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1099)
+
 * Really Ad hoc
   * [UVa 11494 - Queen](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2489)
   * [UVa 11597 - Spanning Subtree](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2644)  
