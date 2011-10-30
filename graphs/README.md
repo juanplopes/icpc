@@ -49,7 +49,6 @@
   * [UVa 11838 - Come and Go](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2938)
   * [UVa 11709 - Trust Groups](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2756)
   * [UVa 1223 - Sub-Dictionary](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3670)
-  * [UVa 11770 - Lighting Away](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2870)
   
 * Finding Articulation Points/Bridges
   * [UVa 315 - Network](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=251)
@@ -57,6 +56,8 @@
   
 * Topological Sorting
   * [UVa 11686 - Pick up Sticks](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2733)
+  * [UVa 1263 - Mines](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3704)
+  * [UVa 11770 - Lighting Away](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2870)
   
 * Minimum Path (Floyd-Warshall)
   * [UVa 10278 - Fire Station](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1219)
