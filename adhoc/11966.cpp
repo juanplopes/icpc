@@ -10,9 +10,8 @@ int P[1000];
 double X[1000], Y[1000];
 
 inline int findset(int v) {
-    if (P[v] != v)
-        return P[v] = findset(P[v]);
-    return v;
+    if (P[v] == v) return v;
+    return P[v] = findset(P[v]);
 }
 
 inline bool unionset(int x, int y) {
