@@ -18,7 +18,6 @@ inline int findset(int v) {
 inline bool unionset(int x, int y) {
     int a = findset(x), b = findset(y);
     if (a==b) return false;
-    if (a>b) swap(a,b);
     P[b] = a;
     return true;
 }
