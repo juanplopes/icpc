@@ -24,7 +24,7 @@ inline bool unionset(int x, int y) {
 }
 
 inline double dist(int a, int b) {
-    return sqrt(pow(X[a]-X[b], 2.0)+pow(Y[a]-Y[b], 2.0));
+    return pow(X[a]-X[b], 2.0)+pow(Y[a]-Y[b], 2.0);
 }
 
 int main() {
@@ -38,7 +38,7 @@ int main() {
         for(int i=0; i<n; i++) {
             cin >> X[i] >> Y[i];
             for(int j=0;j<i;j++)
-                if (dist(i,j)<=d && unionset(i, j))
+                if (dist(i,j)<=d*d && unionset(i, j))
                     sets--;
         }
         
