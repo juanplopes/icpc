@@ -18,6 +18,9 @@
   * [UVa 12192 - Grapevine](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3344) 
   * [UVa 1215 - String Cutting](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3656)
   
+* Segment Tree
+  * [UVa 1232 - SKYLINE](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3673)
+  
 * Sort
   * [UVa 11157 - Dynamic Frog](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2098)  
   * [UVa 12189 - Dinner Hall](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3341)
