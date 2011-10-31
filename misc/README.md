@@ -1,4 +1,4 @@
-# Ad hoc
+# Misc
 
 * STL map
   * [UVa 10420 - List of Conquests](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1361)
@@ -36,7 +36,7 @@
   * [UVa 10158 - War](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1099)
   * [UVa 11966 - Galactic Bonding](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3117)
 
-* Really Ad hoc
+* Ad hoc
   * [UVa 11494 - Queen](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2489)
   * [UVa 11597 - Spanning Subtree](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2644)  
   * [UVa 12148 - Electricity](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=3300)
