@@ -1,3 +1,6 @@
+//1215
+//String Cutting
+//Misc;Binary Search
 #include <iostream>
 #include <string>
 #include <set>

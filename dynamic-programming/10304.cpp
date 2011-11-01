@@ -1,3 +1,6 @@
+//10304
+//Optimal Binary Search Tree
+//Dynamic Programming;Optimal Search Tree
 #define MAX 252
 #include <iostream>
 #include <cstring>

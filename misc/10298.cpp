@@ -1,3 +1,6 @@
+//10298
+//Power Strings
+//Misc;String Matching (KMP)
 #include <iostream>
 #include <string>
 #include <cstring>

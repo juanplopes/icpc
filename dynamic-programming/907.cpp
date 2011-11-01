@@ -1,3 +1,6 @@
+//907
+//Winterim Backpacking Trip
+//Dynamic Programming;Integer partition
 #define MAX 602
 #include <iostream>
 #include <cstring>

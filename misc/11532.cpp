@@ -1,3 +1,6 @@
+//11532
+//Simple Adjacency Maximization
+//Misc;Binary Manipulation
 #include <iostream>
 #include <cstring>
 #include <iomanip>

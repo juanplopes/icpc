@@ -1,3 +1,6 @@
+//1200
+//A DP Problem
+//Misc;String parsing  
 #include <iostream>
 #include <string>
 #include <cmath>

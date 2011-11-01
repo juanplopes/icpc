@@ -1,3 +1,6 @@
+//10044
+//Erdos Number
+//Graphs;Shortest Path (BFS)
 #include <iostream>
 #include <cstring>
 #include <climits>

@@ -1,3 +1,6 @@
+//12300
+//Smallest Regular Polygon
+//Math;Geometry
 #include <iostream>
 #include <cmath>
 #include <iomanip>

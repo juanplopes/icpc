@@ -1,3 +1,6 @@
+//10259
+//Hippity Hopscotch
+//Dynamic Programming;Memoized DFS
 #include <iostream>
 #include <string>
 #include <cstring>

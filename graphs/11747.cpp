@@ -1,3 +1,6 @@
+//11747
+//Heavy Cycle Edges
+//Graphs;Minimum Spanning Tree (Prim with Priority Queue)
 #include <iostream>
 #include <cstring>
 #include <climits>

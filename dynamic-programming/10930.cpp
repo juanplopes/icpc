@@ -1,3 +1,6 @@
+//10930
+//A-Sequence
+//Dynamic Programming;Knapsack - 0/1
 #include <iostream>
 #include <cstring>
 #include <iomanip>

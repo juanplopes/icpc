@@ -1,3 +1,6 @@
+//11475
+//Extend to Palindrome
+//Misc;Suffix-Prefix Matching (KMP)
 #include <iostream>
 #include <string>
 #include <cstring>

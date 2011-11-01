@@ -1,3 +1,6 @@
+//11966
+//Galactic Bonding
+//Misc;Union-Find
 #include <iostream>
 #include <map>
 #include <string>

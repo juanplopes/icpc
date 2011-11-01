@@ -1,3 +1,6 @@
+//10051
+//Tower of Cubes
+//Dynamic Programming;Longest Increasing Subsequence
 #include <iostream>
 #include <string>
 #include <cstring>

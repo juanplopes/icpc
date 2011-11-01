@@ -1,3 +1,6 @@
+//1229
+//Sub-Dictionary
+//Graphs;Strongly Connected Components
 #include <iostream>
 #include <map>
 #include <string>

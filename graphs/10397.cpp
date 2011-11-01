@@ -1,3 +1,6 @@
+//10397
+//Connect the Campus
+//Graphs;Minimum Spanning Tree (Prim with Priority Queue)
 #include <iostream>
 #include <cstring>
 #include <climits>

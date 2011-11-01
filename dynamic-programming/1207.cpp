@@ -1,3 +1,6 @@
+//1207
+//AGTC
+//Dynamic Programming;Edit Distance
 #include <iostream>
 #include <string>
 #include <cstring>

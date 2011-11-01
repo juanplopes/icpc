@@ -1,3 +1,6 @@
+//10192
+//Vacation
+//Dynamic Programming;Longest Common Subsequence  
 #include <iostream>
 #include <string>
 #include <cstring>

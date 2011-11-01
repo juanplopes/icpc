@@ -1,3 +1,6 @@
+//10444
+//Multi-peg Towers of Hanoi
+//Dynamic Programming;Ad hoc
 #include <iostream>
 #include <string>
 #include <cstring>

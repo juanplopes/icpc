@@ -1,3 +1,6 @@
+//12137
+//Puzzles of Triangles
+//Math;Prime Factorization
 #include <string.h>
 #include <stdio.h>
 #define ull unsigned long long

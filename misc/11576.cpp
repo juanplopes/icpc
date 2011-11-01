@@ -1,3 +1,6 @@
+//11576
+//Scrolling Sign
+//Misc;Suffix-Prefix Matching (KMP)
 #include <iostream>
 #include <string>
 #include <cstring>

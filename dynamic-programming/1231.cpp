@@ -1,3 +1,6 @@
+//1231
+//ACORN
+//Dynamic Programming;Ad hoc
 #include <iostream>
 #include <string>
 #include <cstring>

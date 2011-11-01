@@ -1,3 +1,6 @@
+//10827
+//Maximum sum on a torus
+//Dynamic Programming;Maximum Sum Sub-rectangle
 #include <iostream>
 #include <climits>
 #define MAX 160

@@ -1,3 +1,6 @@
+//10891
+//Game of Sum
+//Dynamic Programming;Matrix Multiplication
 #define MAX 101
 #include <iostream>
 #include <cstring>

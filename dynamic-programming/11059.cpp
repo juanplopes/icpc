@@ -1,3 +1,6 @@
+//11059
+//Maximum Product
+//Dynamic Programming;Maximum Sum Contiguous Subsequence
 #include <iostream>
 #include <climits>
 #include <cmath>

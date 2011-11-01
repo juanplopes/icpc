@@ -1,3 +1,6 @@
+//1239
+//Greatest K-Palindrome Substring
+//Dynamic Programming;Ad hoc
 #include <iostream>
 #include <string>
 #include <cstring>

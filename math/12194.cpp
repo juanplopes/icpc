@@ -1,3 +1,6 @@
+//12194
+//Isosceles Triangles
+//Math;Geometry
 #include <cstdio>
 #include <algorithm>
 #include <cstring>

@@ -1,3 +1,6 @@
+//11110
+//Equidivisions
+//Graphs;Flood Fill
 #include <iostream>
 #include <string>
 #include <sstream>

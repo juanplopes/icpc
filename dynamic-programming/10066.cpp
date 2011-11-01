@@ -1,3 +1,6 @@
+//10066
+//The Twin Towers
+//Dynamic Programming;Longest Common Subsequence  
 #include <iostream>
 #include <string>
 #include <cstring>

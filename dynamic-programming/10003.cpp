@@ -1,3 +1,6 @@
+//10003
+//Cutting Sticks
+//Dynamic Programming;Matrix Multiplication
 #define MAX 1001
 #include <iostream>
 #include <cstring>

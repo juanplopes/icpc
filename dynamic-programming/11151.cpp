@@ -1,3 +1,6 @@
+//11151
+//Longest Palindrome
+//Dynamic Programming;Longest Common Subsequence  
 #include <iostream>
 #include <string>
 #include <cstring>

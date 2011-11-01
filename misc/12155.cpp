@@ -1,3 +1,6 @@
+//12155
+//ASCII Diamondi
+//Misc;Ad hoc
 #include <iostream>
 using namespace std;
 

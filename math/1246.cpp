@@ -1,3 +1,6 @@
+//1246
+//Find Terrorists
+//Math;Sieve
 #include <iostream>
 #include <vector>
 #include <cstring>

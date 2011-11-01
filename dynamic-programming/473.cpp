@@ -1,3 +1,6 @@
+//473
+//Raucous Rockers
+//Dynamic Programming;Longest Increasing Subsequence
 #include <iostream>
 #include <string>
 #include <cstring>

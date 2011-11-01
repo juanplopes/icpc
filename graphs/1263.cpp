@@ -1,3 +1,6 @@
+//1263
+//Mines
+//Graphs;Topological Sorting
 #include <iostream>
 #include <cstring>
 #define MAX 2001

@@ -1,3 +1,6 @@
+//12147
+//DNA Sequences
+//Dynamic Programming;Longest Common Subsequence  
 #include <iostream>
 #include <string>
 #include <cstring>

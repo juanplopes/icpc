@@ -1,3 +1,6 @@
+//1223
+//Editor
+//Dynamic Programming;Longest Common Substring
 #include <iostream>
 #include <string>
 #include <cstring>

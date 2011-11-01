@@ -1,3 +1,6 @@
+//796
+//Critical Links
+//Graphs;Finding Articulation Points/Bridges
 #include <iostream>
 #include <cstring>
 #include <string>

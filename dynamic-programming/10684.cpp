@@ -1,3 +1,6 @@
+//10684
+//The Jackpot
+//Dynamic Programming;Maximum Sum Contiguous Subsequence
 #include <iostream>
 #include <cmath>
 #define MAX 1005
