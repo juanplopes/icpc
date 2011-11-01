@@ -11,7 +11,7 @@ puts '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.or
     <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Juan Lopes</title>
+        <title>icpc</title>
         <script type="text/javascript" src="_tools/shCore.js"></script>
         <script type="text/javascript" src="_tools/shBrushCpp.js"></script>
         <link type="text/css" rel="stylesheet" href="_tools/shCoreDefault.css"/>
