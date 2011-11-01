@@ -13,6 +13,7 @@
 * Longest Common Subsequence
   * 10066 - The Twin Towers
   * 10192 - Vacation
+  * 10723 - Cyborg Genes
   * 11151 - Longest Palindrome
   * 12147 - DNA Sequences
 
@@ -24,9 +25,8 @@
 
 * Ad hoc
   * 10444 - Multi-peg Towers of Hanoi
-  * 10723 - sqrt log sin (also: 1)
   * 11375 - Matches
-  * 11703 - sqrt log sin
+  * 10723 - sqrt log sin
   * 1231 - ACORN
   * 1239 - Greatest K-Palindrome Substring
 

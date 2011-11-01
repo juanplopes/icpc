@@ -1,7 +1,4 @@
 //10723
-//sqrt log sin
-//Dynamic Programming;Ad hoc
-//10723
 //Cyborg Genes
 //Dynamic Programming;Longest Common Subsequence  
 #include <iostream>
