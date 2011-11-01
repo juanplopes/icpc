@@ -44,22 +44,23 @@ def ReadProblems(dir):
         yield Problem(number, title, categories)
 
 
-def WriteReadme(problems as Problem*):
+def WriteReadme(level as int, problems as Problem*) as string:
     sb = StringBuilder()
         
-    for category in problems.ToLookup({x|x.Category}):
-        sb.AppendLine("# {0}" % [category.Key])
-        for subCategory in category.ToLookup({x|x.SubCategory}):
-            sb.AppendLine("* {0}" % [subCategory.Key])
-            for problem in subCategory:
-                sb.Append("  * {0} - {1}" % [problem.Number, problem.Title])
-                if problem.Additional.Any():
-                    sb.Append(" (also: {0})" % string.Join(", ", problem.Additional.ToArray()))
-                sb.AppendLine()
-            sb.AppendLine()
-            
-    File.WriteAllText("README.md", sb.ToString())
+    prefix = ('#' if level==0 else string(char(' '), (level-1)*2) + '*')
+        
+    if (problems.Count() > 1):
+        for category in problems.ToLookup({x|x.Categories.Skip(level).First()}):
+            sb.AppendLine("{0} {1}" % [prefix, category.Key])
+            sb.Append(WriteReadme(level+1, category))
+    else:
+        problem = problems.FirstOrDefault()
+        if (problem):
+            sb.Append("{0} {1} - {2}" % [prefix, problem.Number, problem.Title])
+    return sb.ToString()    
+
+    
         
 problems = ReadProblems(".")
-WriteReadme(problems)		
+File.WriteAllText("README.md", WriteReadme(0, problems))
 
