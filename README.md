@@ -1,1 +1,0 @@
-# Categories Indices Inside
