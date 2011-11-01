@@ -4,7 +4,7 @@
   * [UVa 10420 - List of Conquests](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1361)
   * [UVa 11629 - Ballot evaluation](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2676)
   
-* String Mathing (KMP)
+* String Matching (KMP)
   * [UVa 10298 - Power Strings](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1239)
   * [UVa 11475 - Extend to Palindrome](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2470)
   
