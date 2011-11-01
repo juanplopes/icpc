@@ -51,20 +51,20 @@ int main() {
     while(cin >> P, P!="0") {
         bool result = false;
         for(int i=0; i<n; i++) {
-            result = result || kmp(P, i, 0,    0,  1);
-            result = result || kmp(P, i, n-1,  0, -1);
-            result = result || kmp(P, 0, i,  1,  0);
-            result = result || kmp(P, n-1, i, -1,  0);
+            result = result || kmp(P, i,   0,    0,  1);
+            result = result || kmp(P, i,   n-1,  0, -1);
+            result = result || kmp(P, 0,   i,    1,  0);
+            result = result || kmp(P, n-1, i,   -1,  0);
 
-            result = result || kmp(P, 0, i,     1,  1);
-            result = result || kmp(P, i, n-1,  -1,  -1);
-            result = result || kmp(P, i, 0,     1,  1);
-            result = result || kmp(P, n-1, i,     -1,  -1);
+            result = result || kmp(P, 0,   i,    1,  1);
+            result = result || kmp(P, i,   n-1, -1, -1);
+            result = result || kmp(P, i,   0,    1,  1);
+            result = result || kmp(P, n-1, i,   -1, -1);
             
-            result = result || kmp(P, 0, i,     -1,  1);
-            result = result || kmp(P, i, 0,     1,  -1);
-            result = result || kmp(P, i, n-1,  1,  -1);
-            result = result || kmp(P, n-1, i,     -1,  1);
+            result = result || kmp(P, 0,   i,   -1,  1);
+            result = result || kmp(P, i,   0,    1, -1);
+            result = result || kmp(P, i,   n-1,  1, -1);
+            result = result || kmp(P, n-1, i,   -1,  1);
         }
 
         if (!result)
