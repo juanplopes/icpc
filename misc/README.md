@@ -4,6 +4,9 @@
   * [UVa 10420 - List of Conquests](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1361)
   * [UVa 11629 - Ballot evaluation](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2676)
   
+* String Mathing (KMP)
+  * [UVa 10298 - Power Strings](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1239)
+  
 * String parsing  
   * [UVa 1200 - A DP Problem](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3641)
   
