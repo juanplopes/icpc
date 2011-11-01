@@ -6,7 +6,7 @@ def markdown(text)
     Redcarpet.new(text, *options).to_html
 end
 
-puts "<style>.break { page-break-after: always; }</style>"
+puts "<style>.break { page-break-after: always; page-break-inside: avoid; }</style>"
 
 Dir.glob("**/").each do |dir|
     puts "<div class='break'>" + markdown(File.read(File.join(dir, 'README.md'))) + "</div>" 
