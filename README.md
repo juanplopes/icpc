@@ -26,7 +26,7 @@
 * Ad hoc
   * 10444 - Multi-peg Towers of Hanoi
   * 11375 - Matches
-  * 10723 - sqrt log sin
+  * 11703 - sqrt log sin
   * 1231 - ACORN
   * 1239 - Greatest K-Palindrome Substring
 
