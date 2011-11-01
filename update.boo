@@ -56,6 +56,7 @@ def WriteReadme(problems as Problem*):
                 if problem.Additional.Any():
                     sb.Append(" (also: {0})" % string.Join(", ", problem.Additional.ToArray()))
                 sb.AppendLine()
+            sb.AppendLine()
             
     File.WriteAllText("README.md", sb.ToString())
         
