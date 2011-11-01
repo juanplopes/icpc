@@ -7,10 +7,13 @@
 * String Matching (KMP)
   * [UVa 10298 - Power Strings](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=1239)
 
+* 2D String Matching (KMP)
+  * [UVa 422 - Word-Search Wonder](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=363)
+
 * Suffix-Prefix Matching (KMP)
   * [UVa 11475 - Extend to Palindrome](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2470)
   * [UVa 11576 - Scrolling Sign](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&category=24&problem=2623)
-  
+ 
 * String parsing  
   * [UVa 1200 - A DP Problem](http://uva.onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&category=247&page=show_problem&problem=3641)
   
