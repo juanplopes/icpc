@@ -1,3 +1,6 @@
+//11703
+//sqrt log sin
+//Dynamic Programming;Ad hoc
 #include <iostream>
 #include <cmath>
 #include <cstring>
