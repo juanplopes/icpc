@@ -49,7 +49,7 @@ def WriteReadme(level as int, problems as Problem*) as string:
                 sb.AppendLine("{0} **{1}**" % [prefix, category.Key])
                 sb.Append(WriteReadme(level+1, category))
             else:
-                for problem in category:
+                for problem in category.OrderBy({x|x.Number}):
                     sb.Append(WriteReadme(level, (problem,)))
             sb.AppendLine()
     return sb.ToString()

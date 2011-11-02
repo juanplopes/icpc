@@ -1,15 +1,15 @@
 # **Dynamic Programming**
 * **Ad hoc**
+    * [1231 - ACORN](http://uva.onlinejudge.org/external/12/1231.html)
+    * [1239 - Greatest K-Palindrome Substring](http://uva.onlinejudge.org/external/12/1239.html)
     * [10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/external/104/10444.html)
     * [11375 - Matches](http://uva.onlinejudge.org/external/113/11375.html)
     * [11703 - sqrt log sin](http://uva.onlinejudge.org/external/117/11703.html)
-    * [1231 - ACORN](http://uva.onlinejudge.org/external/12/1231.html)
-    * [1239 - Greatest K-Palindrome Substring](http://uva.onlinejudge.org/external/12/1239.html)
 
 
 * **Edit Distance**
-    * [10739 - String to Palindrome](http://uva.onlinejudge.org/external/107/10739.html)
     * [1207 - AGTC](http://uva.onlinejudge.org/external/12/1207.html)
+    * [10739 - String to Palindrome](http://uva.onlinejudge.org/external/107/10739.html)
 
 
 * **Integer partition**
@@ -40,11 +40,11 @@
     * [1223 - Editor](http://uva.onlinejudge.org/external/12/1223.html)
 
 * **Longest Increasing Subsequence**
+    * [473 - Raucous Rockers](http://uva.onlinejudge.org/external/4/473.html)
     * [10051 - Tower of Cubes](http://uva.onlinejudge.org/external/100/10051.html)
     * [10154 - Weights and Measures](http://uva.onlinejudge.org/external/101/10154.html)
     * [10635 - Prince and Princess](http://uva.onlinejudge.org/external/106/10635.html)
     * [11003 - Boxes](http://uva.onlinejudge.org/external/110/11003.html)
-    * [473 - Raucous Rockers](http://uva.onlinejudge.org/external/4/473.html)
 
 
 * **Matrix Multiplication**
@@ -75,13 +75,13 @@
 
 
 * **DFS**
-    * [10243 - Fire! Fire! Fire!](http://uva.onlinejudge.org/external/102/10243.html)
-    * [10259 - Hippity Hopscotch](http://uva.onlinejudge.org/external/102/10259.html)
+    * [273 - Jack Straws](http://uva.onlinejudge.org/external/2/273.html)
     * [1197 - The Suspects](http://uva.onlinejudge.org/external/11/1197.html)
     * [1216 - The Bug Sensor Problem](http://uva.onlinejudge.org/external/12/1216.html)
-    * [12186 - Another Crisis](http://uva.onlinejudge.org/external/121/12186.html)
     * [1220 - Party at Hali-Bula](http://uva.onlinejudge.org/external/12/1220.html)
-    * [273 - Jack Straws](http://uva.onlinejudge.org/external/2/273.html)
+    * [10243 - Fire! Fire! Fire!](http://uva.onlinejudge.org/external/102/10243.html)
+    * [10259 - Hippity Hopscotch](http://uva.onlinejudge.org/external/102/10259.html)
+    * [12186 - Another Crisis](http://uva.onlinejudge.org/external/121/12186.html)
 
 
 * **Finding Articulation Points**
@@ -97,67 +97,67 @@
 
 * **Maximum Flow**
     * **Ford-Fulkerson**
+        * [820 - Internet Bandwidth](http://uva.onlinejudge.org/external/8/820.html)
         * [10092 - The Problem with the Problem Setter](http://uva.onlinejudge.org/external/100/10092.html)
         * [10480 - Sabotage](http://uva.onlinejudge.org/external/104/10480.html)
         * [10511 - Councilling](http://uva.onlinejudge.org/external/105/10511.html)
-        * [820 - Internet Bandwidth](http://uva.onlinejudge.org/external/8/820.html)
 
 
 
 * **Minimum Spanning Tree**
     * **Prim**
+        * [908 - Re-connecting Computer Sites](http://uva.onlinejudge.org/external/9/908.html)
         * [1208 - Oreon](http://uva.onlinejudge.org/external/12/1208.html)
         * [1235 - Anti Brute Force Lock](http://uva.onlinejudge.org/external/12/1235.html)
-        * [908 - Re-connecting Computer Sites](http://uva.onlinejudge.org/external/9/908.html)
 
         * **Priority Queue**
+            * [1174 - IP-TV](http://uva.onlinejudge.org/external/11/1174.html)
+            * [1234 - RACING](http://uva.onlinejudge.org/external/12/1234.html)
             * [10397 - Connect the Campus](http://uva.onlinejudge.org/external/103/10397.html)
             * [11631 - Dark roads](http://uva.onlinejudge.org/external/116/11631.html)
             * [11733 - Airports](http://uva.onlinejudge.org/external/117/11733.html)
-            * [1174 - IP-TV](http://uva.onlinejudge.org/external/11/1174.html)
             * [11747 - Heavy Cycle Edges](http://uva.onlinejudge.org/external/117/11747.html)
-            * [1234 - RACING](http://uva.onlinejudge.org/external/12/1234.html)
 
 
 
 
 * **Shortest Path**
     * **BFS**
-        * [10044 - Erdos Number](http://uva.onlinejudge.org/external/100/10044.html)
-        * [12101 - Prime Path](http://uva.onlinejudge.org/external/121/12101.html)
-        * [12135 - Switch Bulbs](http://uva.onlinejudge.org/external/121/12135.html)
-        * [12160 - Unlock the Lock](http://uva.onlinejudge.org/external/121/12160.html)
         * [298 - Race Tracks](http://uva.onlinejudge.org/external/2/298.html)
         * [314 - Robot](http://uva.onlinejudge.org/external/3/314.html)
         * [321 - The New Villa](http://uva.onlinejudge.org/external/3/321.html)
         * [627 - The Net](http://uva.onlinejudge.org/external/6/627.html)
+        * [10044 - Erdos Number](http://uva.onlinejudge.org/external/100/10044.html)
+        * [12101 - Prime Path](http://uva.onlinejudge.org/external/121/12101.html)
+        * [12135 - Switch Bulbs](http://uva.onlinejudge.org/external/121/12135.html)
+        * [12160 - Unlock the Lock](http://uva.onlinejudge.org/external/121/12160.html)
 
 
     * **Dijkstra**
+        * [1247 - Interstar Transport](http://uva.onlinejudge.org/external/12/1247.html)
         * [10389 - Subway](http://uva.onlinejudge.org/external/103/10389.html)
         * [10986 - Sending email](http://uva.onlinejudge.org/external/109/10986.html)
         * [11833 - Route Change](http://uva.onlinejudge.org/external/118/11833.html)
         * [12144 - Almost Shortest Path](http://uva.onlinejudge.org/external/121/12144.html)
-        * [1247 - Interstar Transport](http://uva.onlinejudge.org/external/12/1247.html)
 
 
     * **Floyd-Warshall**
-        * [10278 - Fire Station](http://uva.onlinejudge.org/external/102/10278.html)
         * [1056 - Degrees of Separation](http://uva.onlinejudge.org/external/10/1056.html)
+        * [10278 - Fire Station](http://uva.onlinejudge.org/external/102/10278.html)
         * [12179 - Randomly-priced Tickets](http://uva.onlinejudge.org/external/121/12179.html)
 
 
 
 * **Strongly Connected Components**
+    * [1229 - Sub-Dictionary](http://uva.onlinejudge.org/external/12/1229.html)
     * [11709 - Trust Groups](http://uva.onlinejudge.org/external/117/11709.html)
     * [11838 - Come and Go](http://uva.onlinejudge.org/external/118/11838.html)
-    * [1229 - Sub-Dictionary](http://uva.onlinejudge.org/external/12/1229.html)
 
 
 * **Topological Sorting**
+    * [1263 - Mines](http://uva.onlinejudge.org/external/12/1263.html)
     * [11686 - Pick up Sticks](http://uva.onlinejudge.org/external/116/11686.html)
     * [11770 - Lighting Away](http://uva.onlinejudge.org/external/117/11770.html)
-    * [1263 - Mines](http://uva.onlinejudge.org/external/12/1263.html)
 
 
 
