@@ -39,7 +39,7 @@ def WriteReadme(level as int, problems as Problem*) as string:
      
     if problems.Count() == 1:
         problem = problems.First()
-        sb.Append("{0} {1} - {2}" % [prefix, problem.Number, problem.Title])
+        sb.Append("{0} [{1} - {2}](http://uva.onlinejudge.org/external/{3}/{4}.html" % [prefix, problem.Number, problem.Title, problem.Number/100, problem.Number])
         if problem.Categories.Skip(level).Any():
             sb.Append(" ({0})" % [ string.Join(", ", problem.Categories.Skip(level).ToArray()) ])
         sb.AppendLine()
