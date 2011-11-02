@@ -46,7 +46,7 @@ def WriteReadme(level as int, problems as Problem*) as string:
     else:
         for category in problems.ToLookup({x|x.Categories.Skip(level).FirstOrDefault()}).OrderBy({x|x.Key}):
             if category.Key != null:
-                sb.AppendLine("{0} {1}" % [prefix, category.Key])
+                sb.AppendLine("{0} *{1}*" % [prefix, category.Key])
                 sb.Append(WriteReadme(level+1, category))
             else:
                 for problem in category:
