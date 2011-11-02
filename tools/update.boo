@@ -10,18 +10,6 @@ class Problem:
     [getter(Categories)]
     categories as string*
 
-    Category:
-        get:
-            return categories.First()
-        
-    SubCategory:
-        get:
-            return categories.Skip(1).First()
-    
-    Additional:
-        get:
-            return categories.Skip(2)
-    
     def constructor(number, title, categories):
         self.number = number
         self.title = title
@@ -44,22 +32,32 @@ def ReadProblems(dir):
         yield Problem(number, title, categories)
 
 
-def WriteReadme(problems as Problem*):
+def WriteReadme(level as int, problems as Problem*) as string:
     sb = StringBuilder()
-        
-    for category in problems.ToLookup({x|x.Category}).OrderBy({x|x.Key}):
-        sb.AppendLine("# {0}" % [category.Key])
-        for subCategory in category.ToLookup({x|x.SubCategory}).OrderBy({x|x.Key}):
-            sb.AppendLine("* {0}" % [subCategory.Key])
-            for problem in subCategory.OrderBy({x|x.Number}):
-                sb.Append("  * {0} - {1}" % [problem.Number, problem.Title])
-                if problem.Additional.Any():
-                    sb.Append(" ({0})" % [ string.Join(", ", problem.Additional.ToArray()) ])
-                sb.AppendLine()
+      
+    prefix = ("#" if level == 0 else string(char(' '), (level-1)*2) + "*")
+     
+    if problems.Count() == 1:
+        problem = problems.First()
+        sb.Append("{0} {1} - {2}" % [prefix, problem.Number, problem.Title])
+        if problem.Categories.Skip(level).Any():
+            sb.Append(" ({0})" % [ string.Join(", ", problem.Categories.Skip(level).ToArray()) ])
+        sb.AppendLine()
+    else:
+        for category in problems.ToLookup({x|x.Categories.Skip(level).FirstOrDefault()}).OrderBy({x|x.Key}):
+            if category.Key != null:
+                sb.AppendLine("{0} {1}" % [prefix, category.Key])
+                sb.Append(WriteReadme(level+1, category))
+            else:
+                for problem in category:
+                    sb.Append(WriteReadme(level, (problem,)))
             sb.AppendLine()
+    return sb.ToString()
+        
+
             
-    File.WriteAllText("README.md", sb.ToString())
+    
         
 problems = ReadProblems("src")
-WriteReadme(problems)		
+File.WriteAllText("README.md", WriteReadme(0, problems))		
 
