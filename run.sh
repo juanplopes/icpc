@@ -1,0 +1,1 @@
+tools/booi tools/update.boo $*
