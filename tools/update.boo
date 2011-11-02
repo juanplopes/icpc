@@ -35,7 +35,7 @@ def ReadProblems(dir):
 def WriteReadme(level as int, problems as Problem*) as string:
     sb = StringBuilder()
       
-    prefix = ("#" if level == 0 else string(char(' '), (level-1)*2) + "*")
+    prefix = ("#" if level == 0 else string(char(' '), (level-1)*4) + "*")
      
     if problems.Count() == 1:
         problem = problems.First()
