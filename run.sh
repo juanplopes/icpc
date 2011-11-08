@@ -1,1 +1,1 @@
-tools/booi tools/update.boo $*
+tools/booi.exe tools/update.boo $*
