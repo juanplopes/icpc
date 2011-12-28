@@ -180,6 +180,7 @@
 # **Misc**
 * **Ad hoc**
     * [458 - The Decoder](http://uva.onlinejudge.org/external/4/458.html)
+    * [573 - The Snail](http://uva.onlinejudge.org/external/5/573.html)
     * [11494 - Queen](http://uva.onlinejudge.org/external/114/11494.html)
     * [11597 - Spanning Subtree](http://uva.onlinejudge.org/external/115/11597.html)
     * [12148 - Electricity](http://uva.onlinejudge.org/external/121/12148.html)
