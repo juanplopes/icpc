@@ -182,6 +182,7 @@
     * [136 - Ugly Numbers](http://uva.onlinejudge.org/external/1/136.html)
     * [160 - Factors and Factorials](http://uva.onlinejudge.org/external/1/160.html)
     * [458 - The Decoder](http://uva.onlinejudge.org/external/4/458.html)
+    * [494 - Kindergarten Counting Game](http://uva.onlinejudge.org/external/4/494.html)
     * [573 - The Snail](http://uva.onlinejudge.org/external/5/573.html)
     * [11494 - Queen](http://uva.onlinejudge.org/external/114/11494.html)
     * [11597 - Spanning Subtree](http://uva.onlinejudge.org/external/115/11597.html)
