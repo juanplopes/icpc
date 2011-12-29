@@ -28,11 +28,11 @@ int main() {
         int count = 0;
         for(int i=0; i<wn; i++) {
             if (T[n][i] == 0) break;
-            cout << setw(3) << right << T[n][i];
-            if (++count == 15) {
-                count = 0;
+            if (++count > 15) {
+                count = 1;
                 cout << endl << "      ";
             }
+            cout << setw(3) << right << T[n][i];
         }
         cout << endl;
     }
