@@ -180,6 +180,7 @@
 # **Misc**
 * **Ad hoc**
     * [136 - Ugly Numbers](http://uva.onlinejudge.org/external/1/136.html)
+    * [160 - Factors and Factorials](http://uva.onlinejudge.org/external/1/160.html)
     * [458 - The Decoder](http://uva.onlinejudge.org/external/4/458.html)
     * [573 - The Snail](http://uva.onlinejudge.org/external/5/573.html)
     * [11494 - Queen](http://uva.onlinejudge.org/external/114/11494.html)
@@ -217,7 +218,7 @@
 
 
 * **STL map**
-    * [136 - Ugly Numbers](http://uva.onlinejudge.org/external/1/136.html)
+    * [119 - Greedy Gift Givers](http://uva.onlinejudge.org/external/1/119.html)
     * [10420 - List of Conquests](http://uva.onlinejudge.org/external/104/10420.html)
     * [11629 - Ballot evaluation](http://uva.onlinejudge.org/external/116/11629.html)
 
