@@ -179,6 +179,7 @@
 
 # **Misc**
 * **Ad hoc**
+    * [136 - Ugly Numbers](http://uva.onlinejudge.org/external/1/136.html)
     * [458 - The Decoder](http://uva.onlinejudge.org/external/4/458.html)
     * [573 - The Snail](http://uva.onlinejudge.org/external/5/573.html)
     * [11494 - Queen](http://uva.onlinejudge.org/external/114/11494.html)
