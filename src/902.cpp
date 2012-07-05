@@ -1,6 +1,6 @@
 //902
 //Password Search
-//Misc;String Matching;KMP
+//Misc;STL map
 #include <iostream>
 #include <string>
 #include <map>
