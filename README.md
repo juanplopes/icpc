@@ -162,12 +162,20 @@
 
 
 # **Math**
+* **Big Integer**
+    * [424 - Integer Inquiry](http://uva.onlinejudge.org/external/4/424.html)
+
 * **GCD**
     * [12184 - Transcribed Books](http://uva.onlinejudge.org/external/121/12184.html)
 
 * **Geometry**
     * [12194 - Isosceles Triangles](http://uva.onlinejudge.org/external/121/12194.html)
     * [12300 - Smallest Regular Polygon](http://uva.onlinejudge.org/external/123/12300.html)
+
+    * **Convex Hull**
+        * [109 - SCUD Busters](http://uva.onlinejudge.org/external/1/109.html)
+        * [10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
+
 
 
 * **Prime Factorization**
@@ -184,6 +192,7 @@
     * [458 - The Decoder](http://uva.onlinejudge.org/external/4/458.html)
     * [494 - Kindergarten Counting Game](http://uva.onlinejudge.org/external/4/494.html)
     * [573 - The Snail](http://uva.onlinejudge.org/external/5/573.html)
+    * [579 - ClockHands](http://uva.onlinejudge.org/external/5/579.html)
     * [579 - ClockHands](http://uva.onlinejudge.org/external/5/579.html)
     * [591 - Box of Bricks](http://uva.onlinejudge.org/external/5/591.html)
     * [10018 - Reverse and Add](http://uva.onlinejudge.org/external/100/10018.html)
