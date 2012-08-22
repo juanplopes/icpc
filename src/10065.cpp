@@ -28,13 +28,12 @@ struct Point {
 };
 
 double area(Point* A, int a) {
-    double area = 0.0;        
+    double area = 0;        
     for(int i=0; i<a; i++) {
         int j = (i+1)%a;
         area += (A[i].x + A[j].x) * (A[i].y - A[j].y);
     }
-    area /= 2.0;
-    return area;
+    return area / 2;
 }
 
 int convexHull(Point* P, int n, Point* S) {
