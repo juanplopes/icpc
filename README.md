@@ -184,6 +184,14 @@
     * [458 - The Decoder](http://uva.onlinejudge.org/external/4/458.html)
     * [494 - Kindergarten Counting Game](http://uva.onlinejudge.org/external/4/494.html)
     * [573 - The Snail](http://uva.onlinejudge.org/external/5/573.html)
+    * [579 - ClockHands](http://uva.onlinejudge.org/external/5/579.html)
+    * [591 - Box of Bricks](http://uva.onlinejudge.org/external/5/591.html)
+    * [10018 - Reverse and Add](http://uva.onlinejudge.org/external/100/10018.html)
+    * [10035 - Primary Arithmetic](http://uva.onlinejudge.org/external/100/10035.html)
+    * [10189 - Minesweeper](http://uva.onlinejudge.org/external/101/10189.html)
+    * [10300 - Ecological Premium](http://uva.onlinejudge.org/external/103/10300.html)
+    * [10694 - f91](http://uva.onlinejudge.org/external/106/10694.html)
+    * [10783 - Odd Sum](http://uva.onlinejudge.org/external/107/10783.html)
     * [11494 - Queen](http://uva.onlinejudge.org/external/114/11494.html)
     * [11597 - Spanning Subtree](http://uva.onlinejudge.org/external/115/11597.html)
     * [12148 - Electricity](http://uva.onlinejudge.org/external/121/12148.html)
@@ -220,6 +228,7 @@
 
 * **STL map**
     * [119 - Greedy Gift Givers](http://uva.onlinejudge.org/external/1/119.html)
+    * [902 - Password Search](http://uva.onlinejudge.org/external/9/902.html)
     * [10420 - List of Conquests](http://uva.onlinejudge.org/external/104/10420.html)
     * [11629 - Ballot evaluation](http://uva.onlinejudge.org/external/116/11629.html)
 

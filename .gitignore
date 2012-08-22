@@ -1,7 +1,7 @@
-*.exe
-*.out
-*.sol
-*.in
+src/*.exe
+src/*.out
+src/*.sol
+src/*.in
 *.*~
 *~
 /*.html
