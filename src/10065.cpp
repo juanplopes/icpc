@@ -64,7 +64,7 @@ int main() {
         int m = convexHull(P, n, S);        
         double original = abs(area(P, n));        
         double modified = abs(area(S, m));
-        double ratio = modified > 0 ? 100*(1.0-(original/modified)) : 0;
+        double ratio = 100*(1.0-(original/modified));
         
         cout << "Tile #" << ++tt << endl;
         cout << "Wasted Space = " << fixed << setprecision(2) << ratio << " %" << endl;
