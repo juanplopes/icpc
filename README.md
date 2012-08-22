@@ -179,6 +179,9 @@
             * [10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
 
 
+    * **Great-Circle Distance**
+        * [10316 - Airline Hub](http://uva.onlinejudge.org/external/103/10316.html)
+
     * **Point Sort**
         * [11626 - Convex Hull](http://uva.onlinejudge.org/external/116/11626.html)
 
