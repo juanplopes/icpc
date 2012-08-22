@@ -1,6 +1,6 @@
 //11626
 //Convex Hull
-//Math;Geometry;Convex Hull
+//Math;Geometry;Point Sort
 #include <iostream>
 #include <algorithm>
 #define long2 long long

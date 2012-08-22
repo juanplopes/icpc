@@ -175,8 +175,10 @@
     * **Convex Hull**
         * [109 - SCUD Busters](http://uva.onlinejudge.org/external/1/109.html)
         * [10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
-        * [11626 - Convex Hull](http://uva.onlinejudge.org/external/116/11626.html)
 
+
+    * **Point Sort**
+        * [11626 - Convex Hull](http://uva.onlinejudge.org/external/116/11626.html)
 
 
 * **Prime Factorization**
