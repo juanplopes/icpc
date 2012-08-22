@@ -1,6 +1,6 @@
 //10065
 //Useless Tile Packers
-//Math;Geometry;Convex Hull
+//Math;Geometry;Convex Hull;Monotone Chain
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -17,8 +17,9 @@ struct Point {
         return (this->x - a.x)*(b.y - a.y) - (this->y - a.y)*(b.x - a.x) < 0;
     }
 
-    static bool lesserX(Point& p1, Point& p2) {
-        return p1.x < p2.x;
+    bool operator <(const Point& p) const {
+        if (this->x != p.x) return this->x < p.x;
+        return this->y < p.y;
     }
 
     bool operator ==(const Point& p) const {
@@ -37,17 +38,21 @@ double area(Point* A, int a) {
 }
 
 int convexHull(Point* P, int n, Point* S) {
-    int m=0;
-    S[m++] = *min_element(P, P+n, Point::lesserX);
-    while(true) {
-        Point cand = S[m-1];
-        for(int j=0; j<n; j++)
-            if (cand==S[m-1] or P[j].left(S[m-1], cand))
-                cand = P[j];
+    sort(P, P+n);
 
-        if (cand == S[0]) break;
-        S[m++] = cand;
-    }   
+    int m=0;
+    for(int i=0; i<n; i++) {
+        while(m >= 2 && S[m-1].left(S[m-2], P[i])) m--;
+        S[m++] = P[i];
+    }
+    m--;
+    
+    for(int i=n-1, k=m; i >= 0; i--) {
+        while(m >= k+2 && S[m-1].left(S[m-2], P[i])) m--;
+        S[m++] = P[i];
+    }
+    m--;
+    
     return m;
 }
 
@@ -61,8 +66,9 @@ int main() {
             P[i] = Point(x, y);
         }
 
-        int m = convexHull(P, n, S);        
         double original = abs(area(P, n));        
+
+        int m = convexHull(P, n, S);     
         double modified = abs(area(S, m));
         double ratio = 100*(1.0-(original/modified));
         
