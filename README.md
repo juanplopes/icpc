@@ -175,7 +175,9 @@
 
     * **Convex Hull**
         * [109 - SCUD Busters](http://uva.onlinejudge.org/external/1/109.html)
-        * [10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
+
+        * **Monotone Chain**
+            * [10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
 
 
     * **Point Sort**
