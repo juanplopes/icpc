@@ -7,7 +7,6 @@
 using namespace std;
 
 int P[MAX], K[MAX], D[MAX][30];
-bool V[MAX];
 double R[MAX];
 
 int main() {
