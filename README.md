@@ -180,12 +180,18 @@
             * [10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
 
 
+    * **Great-Circle Distance**
+        * [10316 - Airline Hub](http://uva.onlinejudge.org/external/103/10316.html)
+
     * **Point Sort**
         * [11626 - Convex Hull](http://uva.onlinejudge.org/external/116/11626.html)
 
 
 * **Prime Factorization**
     * [12137 - Puzzles of Triangles](http://uva.onlinejudge.org/external/121/12137.html)
+
+* **Probability**
+    * [11762 - Race to 1](http://uva.onlinejudge.org/external/117/11762.html)
 
 * **Sieve**
     * [1246 - Find Terrorists](http://uva.onlinejudge.org/external/12/1246.html)
