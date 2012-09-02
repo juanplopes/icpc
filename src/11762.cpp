@@ -16,7 +16,6 @@ int main() {
             continue;
         }
         K[i] = K[i-1] + 1;
-        V[i] = true;
         
         for(int j=i, k=1; j<MAX; j+=i, k++) {
             D[j][P[j]++] = k;
