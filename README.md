@@ -1,5 +1,6 @@
 # **Dynamic Programming**
 * **Ad hoc**
+    * [825 - Walking on the Safe Side](http://uva.onlinejudge.org/external/8/825.html)
     * [1231 - ACORN](http://uva.onlinejudge.org/external/12/1231.html)
     * [1239 - Greatest K-Palindrome Substring](http://uva.onlinejudge.org/external/12/1239.html)
     * [10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/external/104/10444.html)
@@ -188,6 +189,9 @@
 
 * **Prime Factorization**
     * [12137 - Puzzles of Triangles](http://uva.onlinejudge.org/external/121/12137.html)
+
+* **Probability**
+    * [11762 - Race to 1](http://uva.onlinejudge.org/external/117/11762.html)
 
 * **Sieve**
     * [1246 - Find Terrorists](http://uva.onlinejudge.org/external/12/1246.html)
