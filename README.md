@@ -61,6 +61,9 @@
 * **Maximum Sum Sub-rectangle**
     * [10827 - Maximum sum on a torus](http://uva.onlinejudge.org/external/108/10827.html)
 
+* **Minimax**
+    * [12484 - Cards](http://uva.onlinejudge.org/external/124/12484.html)
+
 * **Optimal Search Tree**
     * [10304 - Optimal Binary Search Tree](http://uva.onlinejudge.org/external/103/10304.html)
 
@@ -95,6 +98,9 @@
     * [11110 - Equidivisions](http://uva.onlinejudge.org/external/111/11110.html)
     * [11518 - Dominos 2](http://uva.onlinejudge.org/external/115/11518.html)
 
+
+* **Markov Chain**
+    * [12487 - Midnight Cowboy](http://uva.onlinejudge.org/external/124/12487.html)
 
 * **Maximum Flow**
     * **Ford-Fulkerson**
@@ -161,6 +167,9 @@
     * [11770 - Lighting Away](http://uva.onlinejudge.org/external/117/11770.html)
 
 
+* **Tree Isomorphism**
+    * [12489 - Combating cancer](http://uva.onlinejudge.org/external/124/12489.html)
+
 
 # **Math**
 * **Big Integer**
@@ -186,9 +195,16 @@
     * **Point Sort**
         * [11626 - Convex Hull](http://uva.onlinejudge.org/external/116/11626.html)
 
+    * **Point to Line**
+        * [12483 - Toboggan of Marbles](http://uva.onlinejudge.org/external/124/12483.html)
+
 
 * **Prime Factorization**
     * [12137 - Puzzles of Triangles](http://uva.onlinejudge.org/external/121/12137.html)
+
+    * **Euler's Totient**
+        * [12493 - Stars](http://uva.onlinejudge.org/external/124/12493.html)
+
 
 * **Probability**
     * [11762 - Race to 1](http://uva.onlinejudge.org/external/117/11762.html)
@@ -219,6 +235,9 @@
     * [12155 - ASCII Diamondi](http://uva.onlinejudge.org/external/121/12155.html)
     * [12195 - Jingle Composing](http://uva.onlinejudge.org/external/121/12195.html)
     * [12196 - Klingon Levels](http://uva.onlinejudge.org/external/121/12196.html)
+    * [12482 - Short Story Competition](http://uva.onlinejudge.org/external/124/12482.html)
+    * [12485 - Perfect Choir](http://uva.onlinejudge.org/external/124/12485.html)
+    * [12488 - Start Grid](http://uva.onlinejudge.org/external/124/12488.html)
 
 
 * **Binary Manipulation**
