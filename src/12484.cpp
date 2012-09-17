@@ -21,11 +21,11 @@ int main() {
         memset(T, 0, sizeof(ull)*n);
 
         for(int i=1; i<=n; i++) {
-		    for(int j=0; j<=n-i; j++)
+            for(int j=0; j<=n-i; j++)
                 Q[j] = M[j+i]-M[j] - min(T[j], T[j+1]);
 
             swap(T, Q);
-		}
+        }
 		
         cout << T[0] << endl;
     }
