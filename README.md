@@ -247,6 +247,7 @@
     * [1215 - String Cutting](http://uva.onlinejudge.org/external/12/1215.html)
     * [12190 - Electric Bill](http://uva.onlinejudge.org/external/121/12190.html)
     * [12192 - Grapevine](http://uva.onlinejudge.org/external/121/12192.html)
+    * [12486 - Space Elevator](http://uva.onlinejudge.org/external/124/12486.html)
 
 
 * **Greed**
