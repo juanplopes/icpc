@@ -238,6 +238,7 @@
     * [12482 - Short Story Competition](http://uva.onlinejudge.org/external/124/12482.html)
     * [12485 - Perfect Choir](http://uva.onlinejudge.org/external/124/12485.html)
     * [12488 - Start Grid](http://uva.onlinejudge.org/external/124/12488.html)
+    * [12490 - Integral](http://uva.onlinejudge.org/external/124/12490.html)
     * [12492 - Rubik Cycle](http://uva.onlinejudge.org/external/124/12492.html)
 
 
