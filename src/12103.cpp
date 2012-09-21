@@ -6,21 +6,18 @@
 #include <cstring>
 using namespace std;
 
-bool V[30];
-
 int main() {
     int t; cin >> t;
     while(t--) {
         string s; cin >> s;
-        memset(V, 0, sizeof(V));
 
-        int notzero=0;
+        int notzero = 0, visited = 0;
         for(int i=0; i<s.size(); i++) {
-            if (V[i]) continue;
+            if (visited & 1<<i) continue;
 
             int cycle = 0;
-            for(int j=i; !V[j]; j=s[j]-'A') {
-                V[j] = true;
+            for(int j=i; ~visited & 1<<j; j=s[j]-'A') {
+                visited |= 1<<j;
                 cycle++;
             }
             if (cycle % 2 == 0)
