@@ -258,6 +258,9 @@
 * **Linked List**
     * [245 - Uncompress](http://uva.onlinejudge.org/external/2/245.html)
 
+* **Permutation Cycle**
+    * [12103 - Leonardo's Notebook](http://uva.onlinejudge.org/external/121/12103.html)
+
 * **Priority queue**
     * [1203 - Argus](http://uva.onlinejudge.org/external/12/1203.html)
 
