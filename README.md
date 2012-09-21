@@ -274,6 +274,7 @@
     * [902 - Password Search](http://uva.onlinejudge.org/external/9/902.html)
     * [10420 - List of Conquests](http://uva.onlinejudge.org/external/104/10420.html)
     * [11629 - Ballot evaluation](http://uva.onlinejudge.org/external/116/11629.html)
+    * [12491 - Words](http://uva.onlinejudge.org/external/124/12491.html)
 
 
 * **String Matching**
