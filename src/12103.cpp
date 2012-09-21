@@ -14,7 +14,7 @@ int main() {
         string s; cin >> s;
         memset(V, 0, sizeof(V));
 
-        int even = 0, nz=0;
+        int notzero=0;
         for(int i=0; i<s.size(); i++) {
             if (V[i]) continue;
 
@@ -24,9 +24,9 @@ int main() {
                 cycle++;
             }
             if (cycle % 2 == 0)
-                nz ^= 1<<cycle;
+                notzero ^= 1<<cycle;
         }        
         
-        cout << (nz ? "No" : "Yes") << endl;
+        cout << (notzero ? "No" : "Yes") << endl;
     }    
 }
