@@ -12,8 +12,7 @@ using namespace std;
 struct Value {
     int x;
     ull v;
-    Value() {}
-    
+
     inline bool operator <(const Value& a) const {
         return this->x < a.x;
     }
