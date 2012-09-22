@@ -69,6 +69,9 @@
 
 
 # **Graphs**
+* **2-SAT**
+    * [10319 - Manhattan](http://uva.onlinejudge.org/external/103/10319.html)
+
 * **Bipartite Matching**
     * [12159 - Gun Fight](http://uva.onlinejudge.org/external/121/12159.html)
 
