@@ -1,7 +1,11 @@
-[uva,timus]/*.exe
-[uva,timus]/*.out
-[uva,timus]/*.sol
-[uva,timus]/*.in
+uva/*.exe
+uva/*.out
+uva/*.sol
+uva/*.in
+timus/*.exe
+timus/*.out
+timus/*.sol
+timus/*.in
 *.*~
 *~
 /*.html
