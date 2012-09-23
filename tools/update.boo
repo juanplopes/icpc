@@ -1,3 +1,4 @@
+import System
 import System.IO
 import System.Text
 import System.Linq.Enumerable from System.Core
@@ -14,8 +15,27 @@ class Problem:
         self.number = number
         self.title = title
         self.categories = categories
+
+    virtual def Line(prefix) as string:
+        pass
+
+
+class UvaProblem(Problem):
+    def constructor(number, title, categories):
+        super(number, title, categories)
+
+    def Line(prefix):
+        return "{0} [UVA {1} - {2}](http://uva.onlinejudge.org/external/{3}/{4}.html)" % [prefix, Number, Title, Number/100, Number]
+
+class TimusProblem(Problem):
+    def constructor(number, title, categories):
+        super(number, title, categories)
+        
+    def Line(prefix):
+        return "{0} [TIMUS {1} - {2}](http://acm.timus.ru/problem.aspx?num={3})" % [prefix, Number, Title, Number]
+
 	
-def ReadProblems(dir):
+def ReadProblems(dir, type as Func[of int, string, string*, Problem]) as Problem*:
     for file in Directory.GetFiles(dir, "*.cpp"):
         lines = File.ReadAllLines(file).TakeWhile({x|x.StartsWith ("//")}).Select ({x|x.Substring(2).Trim()}).ToArray();
         if lines.Length < 3:
@@ -29,7 +49,7 @@ def ReadProblems(dir):
         if categories.Length < 2:
             print "Too few categories. Expected two at least: {0}" % [file]
         
-        yield Problem(number, title, categories)
+        yield type(number, title, categories)
 
 
 def WriteReadme(level as int, problems as Problem*) as string:
@@ -39,7 +59,7 @@ def WriteReadme(level as int, problems as Problem*) as string:
      
     if problems.Count() == 1:
         problem = problems.First()
-        sb.Append("{0} [{1} - {2}](http://uva.onlinejudge.org/external/{3}/{4}.html)" % [prefix, problem.Number, problem.Title, problem.Number/100, problem.Number])
+        sb.Append(problem.Line(prefix))
         if problem.Categories.Skip(level).Any():
             sb.Append(" ({0})" % [ string.Join(", ", problem.Categories.Skip(level).ToArray()) ])
         sb.AppendLine()
@@ -53,11 +73,10 @@ def WriteReadme(level as int, problems as Problem*) as string:
                     sb.Append(WriteReadme(level, (problem,)))
             sb.AppendLine()
     return sb.ToString()
-        
 
-            
+problems = (
+    ReadProblems("uva", {a,b,c|UvaProblem(a,b,c)}).Union(
+    ReadProblems("timus", {a,b,c|TimusProblem(a,b,c)})))
     
-        
-problems = ReadProblems("src")
 File.WriteAllText("README.md", WriteReadme(0, problems))		
 

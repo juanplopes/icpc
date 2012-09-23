@@ -1,7 +1,7 @@
-src/*.exe
-src/*.out
-src/*.sol
-src/*.in
+[uva,timus]/*.exe
+[uva,timus]/*.out
+[uva,timus]/*.sol
+[uva,timus]/*.in
 *.*~
 *~
 /*.html
