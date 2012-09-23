@@ -73,6 +73,8 @@
 # **Graphs**
 * **2-SAT**
     * [UVA 10319 - Manhattan](http://uva.onlinejudge.org/external/103/10319.html)
+    * [UVA 11294 - Wedding](http://uva.onlinejudge.org/external/112/11294.html)
+
 
 * **Bipartite Matching**
     * [UVA 12159 - Gun Fight](http://uva.onlinejudge.org/external/121/12159.html)
