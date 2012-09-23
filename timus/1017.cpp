@@ -2,12 +2,10 @@
 //Staircases
 //Dynamic Programming;Ad hoc
 #include <iostream>
-#include <cstring>
 #define MAX 506
-#define ull unsigned long long
 using namespace std;
 
-ull T[MAX][MAX];
+long long T[MAX][MAX];
 
 int main() {
     for(int i=1;i<MAX; i++) {
