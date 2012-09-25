@@ -1,5 +1,5 @@
-//1265
-//Tour Belt
+//11857
+//Driving Range
 //Graphs;Minimum Spanning Tree;Kruskal
 #include <iostream>
 #include <cstring>

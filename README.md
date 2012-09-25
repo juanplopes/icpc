@@ -120,7 +120,7 @@
 
 * **Minimum Spanning Tree**
     * **Kruskal**
-        * [UVA 1265 - Tour Belt](http://uva.onlinejudge.org/external/12/1265.html)
+        * [UVA 11857 - Driving Range](http://uva.onlinejudge.org/external/118/11857.html)
 
     * **Prim**
         * [UVA 908 - Re-connecting Computer Sites](http://uva.onlinejudge.org/external/9/908.html)
