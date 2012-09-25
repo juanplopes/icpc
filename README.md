@@ -119,6 +119,9 @@
 
 
 * **Minimum Spanning Tree**
+    * **Kruskal**
+        * [UVA 1265 - Tour Belt](http://uva.onlinejudge.org/external/12/1265.html)
+
     * **Prim**
         * [UVA 908 - Re-connecting Computer Sites](http://uva.onlinejudge.org/external/9/908.html)
         * [UVA 1208 - Oreon](http://uva.onlinejudge.org/external/12/1208.html)
