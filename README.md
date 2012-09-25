@@ -162,6 +162,7 @@
 
     * **Floyd-Warshall**
         * [UVA 1056 - Degrees of Separation](http://uva.onlinejudge.org/external/10/1056.html)
+        * [UVA 1233 - USHER](http://uva.onlinejudge.org/external/12/1233.html)
         * [UVA 10278 - Fire Station](http://uva.onlinejudge.org/external/102/10278.html)
         * [UVA 12179 - Randomly-priced Tickets](http://uva.onlinejudge.org/external/121/12179.html)
 
