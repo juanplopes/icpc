@@ -5,6 +5,7 @@
     * [TIMUS 1018 - Binary Apple Tree](http://acm.timus.ru/problem.aspx?num=1018)
     * [UVA 1231 - ACORN](http://uva.onlinejudge.org/external/12/1231.html)
     * [UVA 1239 - Greatest K-Palindrome Substring](http://uva.onlinejudge.org/external/12/1239.html)
+    * [TIMUS 1658 - Sum of Digits](http://acm.timus.ru/problem.aspx?num=1658)
     * [UVA 10444 - Multi-peg Towers of Hanoi](http://uva.onlinejudge.org/external/104/10444.html)
     * [UVA 11375 - Matches](http://uva.onlinejudge.org/external/113/11375.html)
     * [UVA 11703 - sqrt log sin](http://uva.onlinejudge.org/external/117/11703.html)
