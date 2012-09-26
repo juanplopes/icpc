@@ -4,7 +4,6 @@
 #include <iostream>
 #include <vector>
 #include <cstring>
-#define MAX 105
 using namespace std;
 
 short S[1010][9000];
