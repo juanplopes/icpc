@@ -275,7 +275,9 @@
     * [UVA 245 - Uncompress](http://uva.onlinejudge.org/external/2/245.html)
 
 * **Permutation Cycle**
+    * [UVA 1016 - Silly Sort](http://uva.onlinejudge.org/external/10/1016.html)
     * [UVA 12103 - Leonardo's Notebook](http://uva.onlinejudge.org/external/121/12103.html)
+
 
 * **Priority queue**
     * [UVA 1203 - Argus](http://uva.onlinejudge.org/external/12/1203.html)
