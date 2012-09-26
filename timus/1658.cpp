@@ -9,7 +9,6 @@ using namespace std;
 
 short S[1010][9000];
 short T[1010][9000];
-int R[105];
 
 int main() {
     T[0][0] = 1;
