@@ -38,7 +38,6 @@ int main() {
                 minc = min(minc, T[j]);
                 cycle++;
             }            
-           // cout << " " << cycle << " " << minc << " " << sumc << " " << min(sumc + (cycle-2)*minc, sumc + minc + minn * (cycle+1)) << endl;
             
             answer += min(sumc + (cycle-2)*minc, sumc + minc + minn * (cycle+1));
         }
