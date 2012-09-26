@@ -211,6 +211,9 @@
     * **Point to Line**
         * [UVA 12483 - Toboggan of Marbles](http://uva.onlinejudge.org/external/124/12483.html)
 
+    * **Square Distance**
+        * [TIMUS 1111 - Squares](http://acm.timus.ru/problem.aspx?num=1111)
+
 
 * **Prime Factorization**
     * [UVA 12137 - Puzzles of Triangles](http://uva.onlinejudge.org/external/121/12137.html)
