@@ -204,7 +204,9 @@
 
 
     * **Great-Circle Distance**
+        * [TIMUS 1030 - Titanic](http://acm.timus.ru/problem.aspx?num=1030)
         * [UVA 10316 - Airline Hub](http://uva.onlinejudge.org/external/103/10316.html)
+
 
     * **Point Sort**
         * [UVA 11626 - Convex Hull](http://uva.onlinejudge.org/external/116/11626.html)
