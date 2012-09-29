@@ -193,6 +193,7 @@
     * [UVA 12184 - Transcribed Books](http://uva.onlinejudge.org/external/121/12184.html)
 
 * **Geometry**
+    * [TIMUS 1020 - Rope](http://acm.timus.ru/problem.aspx?num=1020)
     * [UVA 12194 - Isosceles Triangles](http://uva.onlinejudge.org/external/121/12194.html)
     * [UVA 12300 - Smallest Regular Polygon](http://uva.onlinejudge.org/external/123/12300.html)
 
