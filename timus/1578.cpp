@@ -14,8 +14,8 @@ struct Point {
     Point(int x, int y) : x(x), y(y) {}
 
     double dist(Point A) {
-		return sqrt(pow(A.x-x,2.0)+pow(A.y-y,2.0));
-	}
+        return sqrt(pow(A.x-x,2.0)+pow(A.y-y,2.0));
+    }
 
     double angle(Point B, Point C) {
         double a = dist(B), b = B.dist(C), c=dist(C);  

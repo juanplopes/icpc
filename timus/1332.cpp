@@ -13,10 +13,10 @@ struct Point {
     Point(double x, double y) : x(x), y(y) {}
 
     double dist(Point A) {
-		return sqrt(pow(A.x-x,2)+pow(A.y-y,2));
-	}
-	
-	Point middle(Point B) {
+        return sqrt(pow(A.x-x,2)+pow(A.y-y,2));
+    }
+    
+    Point middle(Point B) {
         return Point((x-B.x)/2, (y-B.y)/2);
     }
 

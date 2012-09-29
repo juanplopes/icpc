@@ -26,7 +26,7 @@ int main() {
 
             swap(T, Q);
         }
-		
+        
         cout << T[0] << endl;
     }
 
