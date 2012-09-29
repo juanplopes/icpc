@@ -203,6 +203,9 @@
             * [UVA 10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
 
 
+    * **Enclosing Circle**
+        * [TIMUS 1332 - Genie Bomber](http://acm.timus.ru/problem.aspx?num=1332)
+
     * **Great-Circle Distance**
         * [TIMUS 1030 - Titanic](http://acm.timus.ru/problem.aspx?num=1030)
         * [UVA 10316 - Airline Hub](http://uva.onlinejudge.org/external/103/10316.html)
@@ -213,6 +216,9 @@
 
     * **Point to Line**
         * [UVA 12483 - Toboggan of Marbles](http://uva.onlinejudge.org/external/124/12483.html)
+
+    * **Segments Angle**
+        * [TIMUS 1578 - Mammoth Hunt](http://acm.timus.ru/problem.aspx?num=1578)
 
     * **Square Distance**
         * [TIMUS 1111 - Squares](http://acm.timus.ru/problem.aspx?num=1111)
