@@ -201,7 +201,9 @@
         * [UVA 109 - SCUD Busters](http://uva.onlinejudge.org/external/1/109.html)
 
         * **Monotone Chain**
+            * [TIMUS 1185 - Wall](http://acm.timus.ru/problem.aspx?num=1185)
             * [UVA 10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
+
 
 
     * **Enclosing Circle**
