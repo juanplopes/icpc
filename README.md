@@ -207,7 +207,9 @@
 
 
     * **Enclosing Circle**
+        * [TIMUS 1185 - Wall](http://acm.timus.ru/problem.aspx?num=1185)
         * [TIMUS 1332 - Genie Bomber](http://acm.timus.ru/problem.aspx?num=1332)
+
 
     * **Great-Circle Distance**
         * [TIMUS 1030 - Titanic](http://acm.timus.ru/problem.aspx?num=1030)
