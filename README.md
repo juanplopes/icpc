@@ -197,6 +197,9 @@
     * [UVA 12194 - Isosceles Triangles](http://uva.onlinejudge.org/external/121/12194.html)
     * [UVA 12300 - Smallest Regular Polygon](http://uva.onlinejudge.org/external/123/12300.html)
 
+    * **3D Line Detection**
+        * [TIMUS 1373 - Pictura ex Machina](http://acm.timus.ru/problem.aspx?num=1373)
+
     * **Convex Hull**
         * [UVA 109 - SCUD Busters](http://uva.onlinejudge.org/external/1/109.html)
 
@@ -221,6 +224,9 @@
 
     * **Point to Line**
         * [UVA 12483 - Toboggan of Marbles](http://uva.onlinejudge.org/external/124/12483.html)
+
+    * **Segment Rotation**
+        * [TIMUS 1373 - Pictura ex Machina](http://acm.timus.ru/problem.aspx?num=1373)
 
     * **Segments Angle**
         * [TIMUS 1578 - Mammoth Hunt](http://acm.timus.ru/problem.aspx?num=1578)
