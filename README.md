@@ -219,6 +219,9 @@
         * [UVA 10316 - Airline Hub](http://uva.onlinejudge.org/external/103/10316.html)
 
 
+    * **Mirror**
+        * [TIMUS 1258 - Pool](http://acm.timus.ru/problem.aspx?num=1258)
+
     * **Point Sort**
         * [UVA 11626 - Convex Hull](http://uva.onlinejudge.org/external/116/11626.html)
 
