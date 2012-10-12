@@ -100,7 +100,9 @@
     * [UVA 315 - Network](http://uva.onlinejudge.org/external/3/315.html)
 
 * **Finding Bridges**
+    * [UVA 610 - Street Directions](http://uva.onlinejudge.org/external/6/610.html)
     * [UVA 796 - Critical Links](http://uva.onlinejudge.org/external/7/796.html)
+
 
 * **Flood Fill**
     * [UVA 11110 - Equidivisions](http://uva.onlinejudge.org/external/111/11110.html)
