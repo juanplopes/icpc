@@ -198,6 +198,9 @@
 * **Big Integer**
     * [UVA 424 - Integer Inquiry](http://uva.onlinejudge.org/external/4/424.html)
 
+* **Extended Euclid**
+    * [UVA 10090 - Marbles](http://uva.onlinejudge.org/external/100/10090.html)
+
 * **GCD**
     * [UVA 12184 - Transcribed Books](http://uva.onlinejudge.org/external/121/12184.html)
 
