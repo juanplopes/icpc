@@ -146,6 +146,9 @@
 
 
 * **Shortest Path**
+    * **Bellman Ford**
+        * [UVA 10557 - XYZZY](http://uva.onlinejudge.org/external/105/10557.html)
+
     * **BFS**
         * [UVA 298 - Race Tracks](http://uva.onlinejudge.org/external/2/298.html)
         * [UVA 314 - Robot](http://uva.onlinejudge.org/external/3/314.html)
@@ -161,6 +164,7 @@
         * [UVA 1247 - Interstar Transport](http://uva.onlinejudge.org/external/12/1247.html)
         * [UVA 10389 - Subway](http://uva.onlinejudge.org/external/103/10389.html)
         * [UVA 10986 - Sending email](http://uva.onlinejudge.org/external/109/10986.html)
+        * [UVA 11280 - Flying to Fredericton](http://uva.onlinejudge.org/external/112/11280.html)
         * [UVA 11833 - Route Change](http://uva.onlinejudge.org/external/118/11833.html)
         * [UVA 12144 - Almost Shortest Path](http://uva.onlinejudge.org/external/121/12144.html)
 
