@@ -161,6 +161,7 @@
 
 
     * **Dijkstra**
+        * [UVA 929 - Number Maze](http://uva.onlinejudge.org/external/9/929.html)
         * [UVA 1247 - Interstar Transport](http://uva.onlinejudge.org/external/12/1247.html)
         * [UVA 10389 - Subway](http://uva.onlinejudge.org/external/103/10389.html)
         * [UVA 10986 - Sending email](http://uva.onlinejudge.org/external/109/10986.html)
