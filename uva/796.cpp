@@ -26,7 +26,7 @@ void dfs(int u, int v) {
             if(!V[i]){
                 dfs(v, i);
                 L[v] = min(L[v], L[i]);
-                if(L[i] == V[i]) P.push_back(Ponte(v, i));
+                if(L[i] > V[v]) P.push_back(Ponte(v, i));
             } else if(i != u) { 
                 L[v] = min(L[v], V[i]);
             }
