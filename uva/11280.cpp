@@ -15,7 +15,7 @@ struct Edge {
     int v, c, s;
     Edge(int v, int c, int s) : v(v), c(c), s(s) {}
     inline bool operator <(const Edge& a) const {
-        return this->v < a.v;
+        return this->c < a.c;
     }
 };
 
@@ -46,11 +46,11 @@ int main() {
             G[S[s1]].push_back(Edge(S[s2], cost, 0));
         }       
         
-        priority_queue<Edge> Q;
+        queue<Edge> Q;
         Q.push(Edge(1, 0, 0));
         
         while(!Q.empty()) {
-            Edge e = Q.top(); Q.pop();    
+            Edge e = Q.front(); Q.pop();    
             if (V[e.v][e.s] < e.c) continue;
             
             V[e.v][e.s] = e.c;
