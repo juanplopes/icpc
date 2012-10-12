@@ -98,6 +98,8 @@
 
 * **Finding Articulation Points**
     * [UVA 315 - Network](http://uva.onlinejudge.org/external/3/315.html)
+    * [UVA 10199 - Tourist Guide](http://uva.onlinejudge.org/external/101/10199.html)
+
 
 * **Finding Bridges**
     * [UVA 610 - Street Directions](http://uva.onlinejudge.org/external/6/610.html)
