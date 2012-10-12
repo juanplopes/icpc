@@ -204,8 +204,13 @@
         * [UVA 109 - SCUD Busters](http://uva.onlinejudge.org/external/1/109.html)
 
         * **Monotone Chain**
+            * [UVA 361 - Cops and Robbers](http://uva.onlinejudge.org/external/3/361.html)
+            * [UVA 361 - Cops and Robbers](http://uva.onlinejudge.org/external/3/361.html)
+            * [UVA 811 - The Fortified Forest](http://uva.onlinejudge.org/external/8/811.html)
             * [TIMUS 1185 - Wall](http://acm.timus.ru/problem.aspx?num=1185)
             * [UVA 10065 - Useless Tile Packers](http://uva.onlinejudge.org/external/100/10065.html)
+            * [UVA 10652 - Board Wrapping](http://uva.onlinejudge.org/external/106/10652.html)
+            * [UVA 11096 - Nails](http://uva.onlinejudge.org/external/110/11096.html)
 
 
 
