@@ -200,6 +200,8 @@
 
 * **Extended Euclid**
     * [UVA 10090 - Marbles](http://uva.onlinejudge.org/external/100/10090.html)
+    * [UVA 10104 - Euclid Problem](http://uva.onlinejudge.org/external/101/10104.html)
+
 
 * **GCD**
     * [UVA 12184 - Transcribed Books](http://uva.onlinejudge.org/external/121/12184.html)
