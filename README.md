@@ -125,6 +125,7 @@
 
 * **Minimum Spanning Tree**
     * **Kruskal**
+        * [UVA 1265 - Tour Belt](http://uva.onlinejudge.org/external/12/1265.html)
         * [UVA 10462 - Is There A Second Way Left?](http://uva.onlinejudge.org/external/104/10462.html)
         * [UVA 11857 - Driving Range](http://uva.onlinejudge.org/external/118/11857.html)
 
