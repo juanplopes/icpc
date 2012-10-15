@@ -91,6 +91,7 @@
     * [UVA 1197 - The Suspects](http://uva.onlinejudge.org/external/11/1197.html)
     * [UVA 1216 - The Bug Sensor Problem](http://uva.onlinejudge.org/external/12/1216.html)
     * [UVA 1220 - Party at Hali-Bula](http://uva.onlinejudge.org/external/12/1220.html)
+    * [UVA 10113 - Exchange Rates](http://uva.onlinejudge.org/external/101/10113.html)
     * [UVA 10243 - Fire! Fire! Fire!](http://uva.onlinejudge.org/external/102/10243.html)
     * [UVA 10259 - Hippity Hopscotch](http://uva.onlinejudge.org/external/102/10259.html)
     * [UVA 12186 - Another Crisis](http://uva.onlinejudge.org/external/121/12186.html)
