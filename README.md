@@ -1,6 +1,7 @@
 # **Dynamic Programming**
 * **Ad hoc**
     * [UVA 825 - Walking on the Safe Side](http://uva.onlinejudge.org/external/8/825.html)
+    * [UVA 986 - How Many](http://uva.onlinejudge.org/external/9/986.html)
     * [TIMUS 1017 - Staircases](http://acm.timus.ru/problem.aspx?num=1017)
     * [TIMUS 1018 - Binary Apple Tree](http://acm.timus.ru/problem.aspx?num=1018)
     * [UVA 1231 - ACORN](http://uva.onlinejudge.org/external/12/1231.html)
