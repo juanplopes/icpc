@@ -49,21 +49,19 @@ int main() {
             Cost c = *S.begin();
             int pid = findParent(P[c.v]);
             if (pid == 0) {
-                //cout << " " << time << " " << total << " " << c.v << " " << c.a << " " << c.b << " " << c.t << endl;
                 total += time * c.a + c.b;
                 time += c.t;
                 S.erase(c);
                 M[c.v] = 0;
             } else {
-                //cout << c.v << " " << pid << endl;
                 Cost d = *S.find(C[pid]);
-                M[c.v] = d.v;
-                
                 Cost e(c.a + d.a, c.b + d.b + c.a * d.t, c.t + d.t, d.v);
                 
                 S.erase(c);
                 S.erase(d);
                 S.insert(e);
+
+                M[c.v] = d.v;
                 C[e.v] = e;
             }
         }
