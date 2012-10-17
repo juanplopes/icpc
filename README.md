@@ -20,6 +20,9 @@
 * **Integer partition**
     * [UVA 907 - Winterim Backpacking Trip](http://uva.onlinejudge.org/external/9/907.html)
 
+* **Josephus Problem**
+    * [UVA 10015 - Joseph's Cousin](http://uva.onlinejudge.org/external/100/10015.html)
+
 * **Knapsack**
     * **Binary Knapsack**
         * [UVA 10930 - A-Sequence](http://uva.onlinejudge.org/external/109/10930.html)
@@ -79,6 +82,7 @@
 
 
 * **Bipartite Matching**
+    * [UVA 11159 - Factors and Multiples](http://uva.onlinejudge.org/external/111/11159.html)
     * [UVA 12159 - Gun Fight](http://uva.onlinejudge.org/external/121/12159.html)
 
     * **Konig Theorem**
