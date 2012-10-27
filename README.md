@@ -377,7 +377,9 @@
             * [UVA 719 - Glass Beads](http://uva.onlinejudge.org/external/7/719.html)
 
         * **Longest Common Prefix**
+            * [UVA 760 - DNA Sequencing](http://uva.onlinejudge.org/external/7/760.html)
             * [UVA 11512 - GATTACA](http://uva.onlinejudge.org/external/115/11512.html)
+
 
 
 
