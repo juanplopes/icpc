@@ -42,10 +42,11 @@ void suffix_array(string &s) {
         SA[i] = i;
 
     for (int k = 1; k < n; k *= 2) {     
-        suffix_sort(s.size(), k);
-        suffix_sort(s.size(), 0);
+        suffix_sort(n, k);
+        suffix_sort(n, 0);
+
         int r = tempRA[SA[0]] = 0;
-        for (int i = 1; i < s.size(); i++) {
+        for (int i = 1; i < n; i++) {
             int s1 = SA[i], s2 = SA[i-1];
             bool equal = true;
             equal &= RA[s1] == RA[s2];
