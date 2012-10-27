@@ -29,11 +29,10 @@ void suffix_sort(int n, int k) {
     for (int i = 0; i < n; i++)        
         tempSA[C[RA[(SA[i] + k)%n]]++] = SA[i];
 
-    for (int i = 0; i < n; i++)        
-        SA[i] = tempSA[i];
+    swap(SA, tempSA);
 }
 
-void suffix_array(string s) {             
+void suffix_array(string &s) {             
     int n = s.size();
     
     for (int i = 0; i < n; i++) 
@@ -46,11 +45,16 @@ void suffix_array(string s) {
         suffix_sort(s.size(), k);
         suffix_sort(s.size(), 0);
         int r = tempRA[SA[0]] = 0;
-        for (int i = 1; i < s.size(); i++)
-            tempRA[SA[i]] =     
-                (RA[SA[i]] == RA[SA[i-1]] && RA[(SA[i]+k)%n] == RA[(SA[i-1]+k)%n]) ? r : ++r;
-        for (int i = 0; i < s.size(); i++)
-            RA[i] = tempRA[i];
+        for (int i = 1; i < s.size(); i++) {
+            int s1 = SA[i], s2 = SA[i-1];
+            bool equal = true;
+            equal &= RA[s1] == RA[s2];
+            equal &= RA[(s1+k)%n] == RA[(s2+k)%n];
+            
+            tempRA[SA[i]] = equal ? r : ++r;     
+        }
+                
+        swap(RA, tempRA);
     } 
 }
 
