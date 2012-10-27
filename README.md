@@ -132,7 +132,11 @@
 
 
     * **Min Cost**
-        * [UVA 10746 - Crime Wave - The Sequel](http://uva.onlinejudge.org/external/107/10746.html) (Cycle Canceling)
+        * **Cycle Canceling**
+            * [UVA 10594 - Data Flow](http://uva.onlinejudge.org/external/105/10594.html)
+            * [UVA 10746 - Crime Wave - The Sequel](http://uva.onlinejudge.org/external/107/10746.html)
+
+
 
 
 * **Minimum Spanning Tree**
