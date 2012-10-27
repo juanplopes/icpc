@@ -131,6 +131,9 @@
         * [UVA 10511 - Councilling](http://uva.onlinejudge.org/external/105/10511.html)
 
 
+    * **Min Cost**
+        * [UVA 10746 - Crime Wave - The Sequel](http://uva.onlinejudge.org/external/107/10746.html) (Cycle Canceling)
+
 
 * **Minimum Spanning Tree**
     * **Kruskal**
