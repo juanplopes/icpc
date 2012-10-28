@@ -13,14 +13,14 @@ double C[MAX][MAX], M[MAX];
 int F[MAX][MAX], G[MAX][MAX], P[MAX], n, a, b;
 bool V[MAX];
 
-int send(int s, int t) {
+int send(int s, int t, int minn) {
     V[s] = true;
 
-    if (s==t) return 1<<29;
+    if (s==t) return minn;
     
     for(int i=0; i<n; i++) {
         if (!V[i] && G[s][i]-F[s][i]) {
-            if (int sent = min(G[s][i]-F[s][i], send(i, t))) {
+            if (int sent = send(i, t, min(minn, G[s][i]-F[s][i]))) {
                 F[s][i] += sent;
                 F[i][s] -= sent;
                 return sent;
@@ -97,7 +97,7 @@ int main() {
         n = target()+1;
         
         int total = 0, sent;
-        while(memset(V, 0, sizeof V), sent = send(source(), target()))
+        while(memset(V, 0, sizeof V), sent = send(source(), target(), 1<<29))
             total += sent;
 
         while(cancel_cycle(source()));

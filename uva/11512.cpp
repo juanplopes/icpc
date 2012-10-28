@@ -30,7 +30,7 @@ void suffix_sort(int n, int k) {
     for (int i = 0; i < n; i++)        
         tempSA[C[SA[i] + k < n ? RA[SA[i] + k] : 0]++] = SA[i];
 
-    swap(SA, tempSA);
+    memcpy(SA, tempSA, n*sizeof(int));
 }
 
 void suffix_array(string &s) {             
@@ -56,7 +56,7 @@ void suffix_array(string &s) {
             tempRA[SA[i]] = equal ? r : ++r;     
         }
                 
-        swap(RA, tempRA);
+        memcpy(RA, tempRA, n*sizeof(int));
     } 
 }
 
