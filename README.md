@@ -383,6 +383,9 @@
 
 
 
+    * **Trie**
+        * [UVA 12506 - Shortest Names](http://uva.onlinejudge.org/external/125/12506.html)
+
 
 * **String parsing**
     * [UVA 1200 - A DP Problem](http://uva.onlinejudge.org/external/12/1200.html)
