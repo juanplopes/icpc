@@ -379,6 +379,7 @@
         * **Longest Common Prefix**
             * [UVA 760 - DNA Sequencing](http://uva.onlinejudge.org/external/7/760.html)
             * [UVA 11512 - GATTACA](http://uva.onlinejudge.org/external/115/11512.html)
+            * [UVA 12361 - File Retrieval](http://uva.onlinejudge.org/external/123/12361.html)
 
 
 
