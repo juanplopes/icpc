@@ -384,7 +384,9 @@
 
 
     * **Trie**
+        * [UVA 11590 - Prefix Lookup](http://uva.onlinejudge.org/external/115/11590.html)
         * [UVA 12506 - Shortest Names](http://uva.onlinejudge.org/external/125/12506.html)
+
 
 
 * **String parsing**
