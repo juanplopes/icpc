@@ -330,6 +330,9 @@
     * [UVA 12486 - Space Elevator](http://uva.onlinejudge.org/external/124/12486.html)
 
 
+* **Fenwick Tree**
+    * [UVA 11525 - Permutation](http://uva.onlinejudge.org/external/115/11525.html)
+
 * **Greed**
     * [UVA 12172 - Matchsticks](http://uva.onlinejudge.org/external/121/12172.html)
 
