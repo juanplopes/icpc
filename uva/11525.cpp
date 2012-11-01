@@ -27,7 +27,8 @@ struct Fenwick {
     
     int rsq(int b) {                   
         int sum = 0; 
-        for (; b; b -= (b&-b)) sum += T[b];
+        for (; b; b -= (b&-b)) 
+            sum += T[b];
         return sum; 
     }
 
