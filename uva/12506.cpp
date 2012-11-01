@@ -16,10 +16,14 @@ struct Trie {
     }
     
     void clear() {
-        memset(G[0], -1, sizeof G[0]);
-        S[0] = 0;
-        
-        stateCount = 1;
+        stateCount = 0;
+        clear(stateCount++);
+    }
+    
+    int clear(int state) {
+        memset(G[state], -1, sizeof G[state]);
+        S[state] = 0;
+        return state;
     }
     
     void add(string &s) {
@@ -29,14 +33,9 @@ struct Trie {
 
             int next = s[i] - 'a';
 
-            if (G[state][next] < 0) {
-                G[state][next] = stateCount;
+            if (G[state][next] < 0)
+                G[state][next] = clear(stateCount++);
 
-                memset(G[stateCount], -1, sizeof G[stateCount]);
-                S[stateCount]=0;
-
-                stateCount++;
-            }
             state = G[state][next];
         }
     }
