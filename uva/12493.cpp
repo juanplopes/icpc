@@ -10,9 +10,9 @@ using namespace std;
 bool P[PP];
 
 int main() {
-    for(int i=2; i*i<PP; i++) {
+    for(long long i=2; i*i<PP; i++) {
         if (P[i]) continue;
-        for(int j=i*i; j<PP; j+=i) {
+        for(long long j=i*i; j<PP; j+=i) {
             P[j] = true;
         }
     }
@@ -21,7 +21,7 @@ int main() {
     while(cin >> n) {
         ull tot = 1;
         //cout << ">>" << n << endl; 
-        for(ull i=2; i<=sqrt(n) && n>1; i++) {
+        for(ull i=2; i*i<=n && n>1; i++) {
             if (P[i]) continue;
             ull q=0;
         

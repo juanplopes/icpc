@@ -22,10 +22,10 @@ inline ull pow(const ull& a, const int b) {
 }
 
 int main() {
-    for(int i=2; i*i<PP; i++) {
+    for(long long i=2; i*i<PP; i++) {
         if (P[i]) continue;
         W[wn++] = i;
-        for(int j=i*i; j<PP; j+=i) {
+        for(long long j=i*i; j<PP; j+=i) {
             P[j] = true;
         }
     }
