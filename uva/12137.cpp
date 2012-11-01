@@ -3,9 +3,11 @@
 //Math;Prime Factorization
 #include <string.h>
 #include <stdio.h>
+#define PP 20000
 #define ull unsigned long long
 
-int W[] = { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 }, wn = 23;
+int W[PP], wn=0;
+bool P[PP];
 
 inline ull div(const ull& a, const ull& b, ull &r) {
     r = a/b;
@@ -20,6 +22,14 @@ inline ull pow(const ull& a, const int b) {
 }
 
 int main() {
+    for(int i=2; i*i<PP; i++) {
+        if (P[i]) continue;
+        W[wn++] = i;
+        for(int j=i*i; j<PP; j+=i) {
+            P[j] = true;
+        }
+    }
+
     ull n;
     int t=0;
     while(scanf("%llu", &n), n) {

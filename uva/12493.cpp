@@ -10,9 +10,9 @@ using namespace std;
 bool P[PP];
 
 int main() {
-    for(int i=2; i<PP; i++) {
+    for(int i=2; i*i<PP; i++) {
         if (P[i]) continue;
-        for(int j=i+i; j<PP; j+=i) {
+        for(int j=i*i; j<PP; j+=i) {
             P[j] = true;
         }
     }
