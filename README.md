@@ -171,6 +171,7 @@
         * [UVA 314 - Robot](http://uva.onlinejudge.org/external/3/314.html)
         * [UVA 321 - The New Villa](http://uva.onlinejudge.org/external/3/321.html)
         * [UVA 627 - The Net](http://uva.onlinejudge.org/external/6/627.html)
+        * [UVA 652 - Eight](http://uva.onlinejudge.org/external/6/652.html)
         * [UVA 1251 - Repeated Substitution with Sed](http://uva.onlinejudge.org/external/12/1251.html)
         * [UVA 10044 - Erdos Number](http://uva.onlinejudge.org/external/100/10044.html)
         * [UVA 12101 - Prime Path](http://uva.onlinejudge.org/external/121/12101.html)
