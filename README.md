@@ -332,6 +332,7 @@
 
 * **Fenwick Tree**
     * [UVA 11423 - Cache Simulator](http://uva.onlinejudge.org/external/114/11423.html)
+    * [UVA 11423 - Cache Simulator](http://uva.onlinejudge.org/external/114/11423.html)
     * [UVA 11525 - Permutation](http://uva.onlinejudge.org/external/115/11525.html)
 
 
