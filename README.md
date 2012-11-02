@@ -355,7 +355,7 @@
     * [UVA 1232 - SKYLINE](http://uva.onlinejudge.org/external/12/1232.html)
 
     * **Lazy Propagation**
-        * [SPOJ BR HOMEM - Homem, Elefante e Rato](http://br.spoj.pl/problems/HOMEM/HOMEM)
+        * [SPOJ BR HOMEM - Homem, Elefante e Rato](http://br.spoj.pl/problems/HOMEM)
 
 
 * **Sort**
