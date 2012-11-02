@@ -3,7 +3,8 @@
 //Misc;Fenwick Tree
 #include <iostream>
 #include <cstring>
-#define MAX 300100
+#include <cstdio>
+#define MAX 600100
 #define ull long long
 using namespace std;
 
@@ -34,11 +35,15 @@ struct Segtree {
     int n;
 
     Segtree() {
-        clear(0);
+        clear(1);
     }
     
     void clear(int n) {
         this->n = n;               
+        
+        while(n != n&-n)
+            n += n&-n;
+        
         build(1, 1, n);
     }
     
@@ -46,8 +51,8 @@ struct Segtree {
         T[v] = Node(b-a+1);
         
         if (a<b) {
-            build(2*v, a, (a+b)/2);
-            build(2*v+1, (a+b)/2+1, b);
+            build(2*v, a, (a+b)>>1);
+            build(2*v+1, ((a+b)>>1)+1, b);
         }
     }
     
@@ -63,9 +68,11 @@ struct Segtree {
             T[v].change(inc1+inc2);
             return T[v];
         }
+        
+        T[v].change(inc2);
 
-        return T[v] = update(v*2, a, (a+b)/2, i, j, inc1, inc2+T[v].u) + 
-                      update(v*2+1, (a+b)/2+1, b, i, j, inc1, inc2+T[v].u);
+        return T[v] = update(v*2, a, (a+b)>>1, i, j, inc1, inc2+T[v].u) + 
+                      update(v*2+1, ((a+b)>>1)+1, b, i, j, inc1, inc2+T[v].u);
         
     }
 
@@ -74,21 +81,19 @@ struct Segtree {
     }
     
     Node query(int v, int a, int b, int i, int j, int inc) {
-        if (i>b || j<a) {
-            T[v].u += inc;
-            T[v].change(inc);
+        T[v].u += inc;
+        T[v].change(inc);
+
+        if (i>b || j<a)
             return Node(0);
-        }
         
-        if (i<=a && b<=j) {
-            T[v].u += inc;
-            T[v].change(inc);
+        if (i<=a && b<=j)
             return T[v];
-        }
         
-        Node answer = query(v*2, a, (a+b)/2, i, j, inc+T[v].u) + 
-                      query(v*2+1, (a+b)/2+1, b, i, j, inc+T[v].u);
+        Node answer = query(v*2, a, (a+b)>>1, i, j, T[v].u) + 
+                      query(v*2+1, ((a+b)>>1)+1, b, i, j, T[v].u);
         T[v].u = 0;
+
         return answer;
         
     }
@@ -103,18 +108,18 @@ Segtree T;
 
 int main() {
     int n, m;
-    while(cin >> n >> m) {
+    while(scanf("%d%d", &n, &m) != EOF) {
         T.clear(n);
         for(int i=0; i<m; i++) {
             char cmd; int a, b;
-            cin >> cmd >> a >> b;
+            scanf(" %c %d %d", &cmd, &a, &b);
             if (cmd == 'M') {
                 T.update(a, b, 1);
             } else {
                 Node node = T.query(a, b);            
-                cout << node.a << " " << node.b << " " << node.c << endl;
-            }
+                printf("%d %d %d\n", node.a, node.b, node.c);
+            } 
         }
-        cout << endl;
+        printf("\n");
     }
 }
