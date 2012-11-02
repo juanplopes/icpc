@@ -17,8 +17,8 @@ struct Node {
     Node(int a, int b, int c) : a(a), b(b), c(c), pending(0) {}
 
     Node change(int n) {
+        n%=3;
         pending += n;
-        n = ((n%3)+3)%3;
         if (n==1) {
             swap(a, b); swap(a, c);
         } else if (n==2) { 
@@ -41,10 +41,10 @@ struct Segtree {
     }
     
     void clear(int n) {
-        this->n = n;               
-        
         while(n != n&-n)
             n += n&-n;
+
+        this->n = n;               
         
         build(1, 1, n);
     }
