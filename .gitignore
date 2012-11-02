@@ -1,11 +1,8 @@
 uva/*.exe
-uva/*.out
-uva/*.sol
-uva/*.in
 timus/*.exe
-timus/*.out
-timus/*.sol
-timus/*.in
 *.*~
 *~
+*.sol
+*.in
+*.out
 /*.html
