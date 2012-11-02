@@ -16,7 +16,7 @@ struct Node {
     Node(int a) : a(a), b(0), c(0), pending(0) { }
     Node(int a, int b, int c) : a(a), b(b), c(c), pending(0) {}
 
-    void change(int n) {
+    Node change(int n) {
         pending += n;
         n = ((n%3)+3)%3;
         if (n==1) {
@@ -24,6 +24,7 @@ struct Node {
         } else if (n==2) { 
             swap(c, b); swap(c, a); 
         }
+        return *this;
     }
     
     Node operator +(Node x) {
@@ -51,55 +52,35 @@ struct Segtree {
     void build(int v, int a, int b) {
         T[v] = Node(b-a+1);
         
-        if (a<b) {
-            build(2*v, a, (a+b)/2);
-            build(2*v+1, (a+b)/2+1, b);
-        }
+        if (a>=b) return;
+        build(2*v, a, (a+b)/2);
+        build(2*v+1, (a+b)/2+1, b);
     }
     
-    Node update(int v, int a, int b, int i, int j, int inc1, int inc2) {
-        T[v].change(inc2);
-
-        if (i>b || j<a)
-            return T[v];
-
-        
-        if (i<=a && b<=j) {
-            T[v].change(inc1);
-            return T[v];
-        }
-        
-        return T[v] = 
-            update(v*2, a, (a+b)/2, i, j, inc1, T[v].pending) + 
-            update(v*2+1, (a+b)/2+1, b, i, j, inc1, T[v].pending);
-        
-    }
-
-    Node update(int i, int j, int inc) {
-        return update(1, 1, n, i, j, inc, 0);
-    }
-    
-    Node query(int v, int a, int b, int i, int j, int inc) {
-        T[v].change(inc);
+    Node update(int v, int a, int b, int i, int j, int carry, int increment) {
+        T[v].change(carry);
 
         if (i>b || j<a)
             return Node(0);
-        
-        if (i<=a && b<=j)
-            return T[v];
+
+        if (i<=a && b<=j) 
+            return T[v].change(increment);
         
         Node answer = 
-            query(v*2, a, (a+b)/2, i, j, T[v].pending) + 
-            query(v*2+1, (a+b)/2+1, b, i, j, T[v].pending);
-
-        T[v].pending = 0;
-
-        return answer;
+            update(v*2, a, (a+b)/2, i, j, T[v].pending, increment) + 
+            update(v*2+1, (a+b)/2+1, b, i, j, T[v].pending, increment);
         
+        T[v] = T[v*2] + T[v*2+1];
+        
+        return answer;
+    }
+
+    Node update(int i, int j, int inc) {
+        return update(1, 1, n, i, j, 0, inc);
     }
 
     Node query(int i, int j) {
-        return query(1, 1, n, i, j, 0);
+        return update(1, 1, n, i, j, 0, 0);
     }
 
 };
