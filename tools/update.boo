@@ -60,9 +60,9 @@ def ReadProblems(dir, type as Func[of string, string, string*, Problem]) as Prob
 
 def MaybeNumber(s as string):
     try:
-        return int.Parse(s)
+        return int.Parse(s).ToString("D10")
     except:
-        return s
+        return s.ToLower()
 
 def WriteReadme(level as int, problems as Problem*) as string:
     sb = StringBuilder()
