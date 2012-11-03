@@ -357,6 +357,9 @@
     * **Lazy Propagation**
         * [SPOJ BR HOMEM - Homem, Elefante e Rato](http://br.spoj.pl/problems/HOMEM)
 
+    * **Range Maximum Query**
+        * [UVA 11235 - Frequent Values](http://uva.onlinejudge.org/external/112/11235.html)
+
 
 * **Sort**
     * [UVA 11157 - Dynamic Frog](http://uva.onlinejudge.org/external/111/11157.html)
