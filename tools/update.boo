@@ -41,6 +41,13 @@ class SpojBrProblem(Problem):
     def Line(prefix):
         return "{0} [SPOJ BR {1} - {2}](http://br.spoj.pl/problems/{3})" % [prefix, Number, Title, Number]
 
+class SpojProblem(Problem):
+    def constructor(number, title, categories):
+        super(number, title, categories)
+        
+    def Line(prefix):
+        return "{0} [SPOJ {1} - {2}](http://spoj.pl/problems/{3})" % [prefix, Number, Title, Number]
+
 	
 def ReadProblems(dir, type as Func[of string, string, string*, Problem]) as Problem*:
     for file in Directory.GetFiles(dir, "*.cpp"):
@@ -89,6 +96,7 @@ def WriteReadme(level as int, problems as Problem*) as string:
 problems = (
     ReadProblems("uva", {a,b,c|UvaProblem(a,b,c)}).Union(
     ReadProblems("timus", {a,b,c|TimusProblem(a,b,c)})).Union(
+    ReadProblems("spoj", {a,b,c|SpojProblem(a,b,c)})).Union(
     ReadProblems("spojbr", {a,b,c|SpojBrProblem(a,b,c)}))
 )
     

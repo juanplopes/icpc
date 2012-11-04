@@ -336,6 +336,9 @@
     * [UVA 11610 - Reverse Prime](http://uva.onlinejudge.org/external/116/11610.html)
     * [UVA 12365 - Jupiter Atacks!](http://uva.onlinejudge.org/external/123/12365.html)
 
+    * **2D**
+        * [SPOJ NKMOBILE - IOI01 Mobiles](http://spoj.pl/problems/NKMOBILE)
+
 
 * **Greed**
     * [UVA 12172 - Matchsticks](http://uva.onlinejudge.org/external/121/12172.html)
