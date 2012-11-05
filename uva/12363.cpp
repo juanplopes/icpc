@@ -10,8 +10,20 @@
 #define MAX 10001
 using namespace std;
 
-int V[MAX], L[MAX], n, gpe;
-vector<int> G[MAX], T[MAX];
+int V[MAX], L[MAX], P[MAX], n, gpe;
+vector<int> G[MAX];
+
+inline int findset(int v) {
+    if (P[v] != -1 && P[v] != v)
+        return P[v] = findset(P[v]);
+    return v;
+}
+
+inline int unionset(int x, int y) {
+    int a = findset(x), b = findset(y);
+    if (a<b) swap(a,b);
+    P[b] = a;
+}
 
 void dfs(int u, int v) {
     V[v] = L[v] = ++gpe;
@@ -22,39 +34,26 @@ void dfs(int u, int v) {
             dfs(v, w);
             L[v] = min(L[v], L[w]);
 
-            if (L[w] > V[v]) {
-                T[w].push_back(v);
-                T[v].push_back(w);
-            }
+            if (L[w] > V[v]) 
+                unionset(v, w);
         } else if(w != u) { 
             L[v] = min(L[v], V[w]);
         }
     }
 }
 
-void dfs2(int comp, int v) {
-    V[v] = comp;
-
-    for(int i = 0; i < T[v].size(); i++) {
-        int w = T[v][i];
-        if(!V[w])
-            dfs2(comp, w);    
-    }
-}
-
 int main() {
     int m, q;
     while(cin >> n >> m >> q, n|m|q) {
-        memset(G, 0, sizeof(vector<int>)*n);
-        memset(T, 0, sizeof(vector<int>)*n);
-        memset(V, 0, sizeof(int)*n);
-        memset(L, 0, sizeof(int)*n);
+        memset(G, 0, sizeof(vector<int>)*(n+1));
+        memset(V, 0, sizeof(int)*(n+1));
+        memset(L, 0, sizeof(int)*(n+1));
+        memset(P, -1, sizeof(int)*(n+1));
         gpe = 0;
 
         for(int i=0; i<m; i++) {
             int a, b; 
             cin >> a >> b;
-            a--; b--;
             G[a].push_back(b);
             G[b].push_back(a);
         }
@@ -63,16 +62,10 @@ int main() {
             if (!V[i])
                 dfs(i, i);
 
-        memset(V, 0, sizeof(int)*n);
-        for(int i=0; i<n; i++)
-            if (!V[i])
-                dfs2(i+1, i);
-
         for(int i=0; i<q; i++) {
             int a, b; 
             cin >> a >> b;
-            a--;b--;
-            cout << (V[a]==V[b] ? "Y" : "N") << endl;
+            cout << (findset(a)==findset(b) ? "Y" : "N") << endl;
         }
         cout << "-" << endl;
     }
