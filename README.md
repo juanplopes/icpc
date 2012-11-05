@@ -110,6 +110,7 @@
 * **Finding Bridges**
     * [UVA 610 - Street Directions](http://uva.onlinejudge.org/external/6/610.html)
     * [UVA 796 - Critical Links](http://uva.onlinejudge.org/external/7/796.html)
+    * [UVA 12363 - Hedge Mazes](http://uva.onlinejudge.org/external/123/12363.html)
 
 
 * **Flood Fill**

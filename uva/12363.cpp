@@ -1,5 +1,5 @@
 //12363
-//Hedge Maze
+//Hedge Mazes
 //Graphs;Finding Bridges
 #include <iostream>
 #include <cstring>
