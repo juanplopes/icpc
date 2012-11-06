@@ -358,6 +358,9 @@
 * **Segment Tree**
     * [UVA 1232 - SKYLINE](http://uva.onlinejudge.org/external/12/1232.html)
 
+    * **2D**
+        * [UVA 11297 - Census](http://uva.onlinejudge.org/external/112/11297.html)
+
     * **Lazy Propagation**
         * [UVA 11402 - Ahoy, Pirates!](http://uva.onlinejudge.org/external/114/11402.html)
         * [SPOJ BR HOMEM - Homem, Elefante e Rato](http://br.spoj.pl/problems/HOMEM)

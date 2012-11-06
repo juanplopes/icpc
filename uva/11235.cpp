@@ -48,12 +48,12 @@ struct Segtree {
     }
 
     int update(int v, int a, int b, int i, int x) {
-        if (a==b) {
+        if (a==b)
             return V[a] = x, T[v] = a;
-        } else if (i<=(a+b)/2)
-            return T[v] = maxv(T[v], update(v*2, a, (a+b)/2, i, x));
+        else if (i<=(a+b)/2)
+            return T[v] = maxv(T[v*2+1], update(v*2, a, (a+b)/2, i, x));
         else
-            return T[v] = maxv(T[v], update(v*2+1, (a+b)/2+1, b, i, x));
+            return T[v] = maxv(T[v*2], update(v*2+1, (a+b)/2+1, b, i, x));
     }
     
     int query(int i, int j) {
