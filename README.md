@@ -335,6 +335,7 @@
     * [UVA 11423 - Cache Simulator](http://uva.onlinejudge.org/external/114/11423.html)
     * [UVA 11525 - Permutation](http://uva.onlinejudge.org/external/115/11525.html)
     * [UVA 11610 - Reverse Prime](http://uva.onlinejudge.org/external/116/11610.html)
+    * [UVA 12086 - Potentiometers](http://uva.onlinejudge.org/external/120/12086.html)
     * [UVA 12365 - Jupiter Atacks!](http://uva.onlinejudge.org/external/123/12365.html)
 
     * **2D**

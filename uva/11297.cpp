@@ -48,6 +48,7 @@ struct Segtree2d {
         return T[v];
     }
     
+    //virtual apenas para permitir árvore de mínimo
     virtual Point maxv(Point a, Point b) {
         return max(a, b);
     }
@@ -96,8 +97,6 @@ struct Segtree2d {
         
         return T[v] = mx;
     }
-    
-    
     
     Point update(int x, int y, int value) {
         return update(1, 1, 1, n, m, x, y, value);
