@@ -4,3 +4,8 @@ a, p, ul {
     font-size: 16px;
     color: black;
 }
+
+h1, li p {
+    page-break-after: avoid;
+}
+
