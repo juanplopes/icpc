@@ -42,12 +42,10 @@ puts "</div>"
 puts "<div>"
 ['uva', 'timus', 'spoj', 'spojbr'].each do |dir| 
     Dir.glob(File.join(dir, "*.cpp")).sort_by {|s| File.split(s)[1].split('.')[0].to_i }.each do |file|
-        puts "<div class='break'>"
         puts "<h1>#{file}</h1>"
         puts '<pre class="brush: cpp">'
         puts CGI::escapeHTML(File.read(file))
         puts '</pre>'
-        puts "</div>" 
     end
 end
 puts "</div>" 
