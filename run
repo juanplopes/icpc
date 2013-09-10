@@ -1,2 +1,2 @@
 cd $(dirname $0)
-./tools/booi.exe tools/update.boo $*
+mono tools/booi.exe tools/update.boo $*
